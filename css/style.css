@@ -1,0 +1,21 @@
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+.navbar ul li{
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+.navbar ul li a {
+    color: rgb(99, 3, 147);
+}
+.daftar {
+    background-color: rgb(99, 3, 147);
+    border: none;
+}
+.pendanaan .pend {
+    border: 1px solid rgb(99, 3, 147);
+}
+.footer a {
+    color: #fff;
+}
