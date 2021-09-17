@@ -19,6 +19,14 @@
 .footer a {
     color: #fff;
 }
+.cara-kerja p {
+  color: rgb(100, 100, 100)
+}
+.list-group-item a {
+  color: rgb(99, 3, 147);
+  text-decoration: none;
+  font-weight: bold;
+}
 
 @charset "UTF-8";
 /*!
