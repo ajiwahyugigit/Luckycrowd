@@ -27,6 +27,17 @@
   text-decoration: none;
   font-weight: bold;
 }
+.biodata input {
+  border-bottom: 2px solid rgb(99, 3, 147);
+  font-size: 14px;
+  padding: 20px 10px;
+}
+.data-pribadi input {
+  border-bottom: 2px solid rgb(99, 3, 147);
+}
+.data-pribadi .form-control-file {
+  border: rgb(99, 3, 147);
+}
 
 @charset "UTF-8";
 /*!
