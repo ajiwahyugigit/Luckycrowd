@@ -29,7 +29,7 @@
 }
 .biodata input {
   border-bottom: 2px solid rgb(99, 3, 147);
-  font-size: 14px;
+  font-size: 14px;🤓
   padding: 20px 10px;
 }
 .data-pribadi input {
@@ -38,7 +38,13 @@
 .data-pribadi .form-control-file {
   border: rgb(99, 3, 147);
 }
-
+.efek-dashboard ul li a {
+  color: rgb(99, 3, 147);
+  border: 1px solid rgb(99, 3, 147);
+}
+.biodata-input span {
+  color: red;
+}
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Simple Sidebar v6.0.3 (https://startbootstrap.com/template/simple-sidebar)

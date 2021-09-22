@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invest Page</title>
+    <title>welcome Page</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
@@ -12,7 +12,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg py-4">
-        <a class="navbar-brand" href="users.html"><img src="images/logo2.png" alt="" width="180px"></a>
+        <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="" width="180px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,121 +31,89 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">FAQ</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="">Dashboard</a>
-            </li>
+            </li> -->
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <i class="fas fa-bell mr-4"></i>
-            <i class="fa fa-user mr-2"></i>
-            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Pemodal Individu Tester</a></span>
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Masuk</button>
+            <button class="btn btn-primary my-2 my-sm-0 m-3 daftar" type="submit">Daftar</button>
           </form>
         </div>
       </nav>
-      
-      <div class="d-flex" id="wrapper">
-        <!-- Sidebar-->
-        <div class="border-0 bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom"><i class="fa fa-laptop-house"></i> Dashboard</div>
-            <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action p-3" href="biodata.html"><i class="fa fa-address-card"></i> Biodata</a>
-                <a class="list-group-item list-group-item-action p-3" href="akun_pemodal.html" style="background-color: rgb(99, 3, 147); color: white;"><i class="fa fa-search-dollar"></i> Akun Pemodal</a>
-                <a class="list-group-item list-group-item-action p-3" href="#!"><i class="fa fa-fingerprint"></i> Ganti Kata Sandi</a>
-                <a class="list-group-item list-group-item-action p-3" href="#!"><i class="fa fa-power-off"></i> Keluar</a>
 
-            </div>
-        </div>
-        <!-- Page content wrapper-->
-        <div id="page-content-wrapper">
-            <!-- Page content-->
-            <div class="container-fluid">
-                <div class="col-10 tab-menu">
-                    <div class="x_panel">
-                      <div class="x_content">
-    
-                        <ul class="nav nav-tabs bar_tabs" id="myTab" role="tablist">
-                          <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Data Pribadi</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Data Pekerjaan</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Data Penghasilan</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#diskusi" role="tab" aria-controls="contact" aria-selected="false">Latar Belakang Investasi</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content" id="myTabContent">
-                          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                           <div class="row mt-4 data-pribadi">
-                            <div class="col-12 my-4">
-                                <h6 class="font-weight-bold font-monospace">Data Pribadi</h6>
-                                <hr>
+
+    <div class="section">
+        <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-10">
+                   <div class="card">
+                       <div class="card-body">
+                        <h6 class="font-weight-bold font-monospace">Data Pribadi</h6>
+                        <hr>
+                        <div class="row biodata-input">
+                            <div class="col-6">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">Nama Awal <span>*</span></label>
+                                        <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">Nama Akhir <span>*</span></label>
+                                        <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="form-group">
+                                        <label for="name">Tanggal Kadarluasa KTP <span>*</span></label>
+                                        <input type="date" class="form-control" id="name" aria-describedby="emailHelp">
+                                    </div>
+                                </form>
                             </div>
                             <div class="col-6">
-                             <form>
-                                 <div class="form-group">
-                                   <label for="name">Nama Awal <span>*</span></label>
-                                   <input type="email" class="form-control" id="name" aria-describedby="emailHelp" value="Adrian">
-                                 </div>
-                                 <div class="form-group">
-                                     <label for="name">Nama Akhir <span>*</span></label>
-                                     <input type="email" class="form-control" id="name" aria-describedby="emailHelp" value="Ramadan">
-                                   </div>
-                                   <div class="form-group">
-                                     <label for="name">Tanggal Kadarluasa KTP <span>*</span></label>
-                                     <input type="date" class="form-control" id="name" aria-describedby="emailHelp">
-                                   </div>
-                               </form>
-                            </div>
-                            <div class="col-6">
-                             <form>
-                                 <div class="form-group">
-                                   <label for="names">Nama Tengah <span>*</span></label>
-                                   <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
-                                 </div>
-                                 <div class="form-group">
-                                     <label for="names">No KTP <span>*</span></label>
-                                     <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="6252728181514257">
-                                </div>
-                                   <div class="form-group form-checK m-5">
-                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                     <label class="form-check-label" for="exampleCheck1">Seumur Hidup</label>
-                                   </div>
-                               </form>
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="names">Nama Tengah <span>*</span></label>
+                                        <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
+                                      </div>
+                                      <div class="form-group">
+                                          <label for="names">No KTP <span>*</span></label>
+                                          <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
+                                     </div>
+                                        <div class="form-group form-checK mt-5 ml-4">
+                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                          <label class="form-check-label" for="exampleCheck1">Seumur Hidup</label>
+                                    </div>
+                                </form>
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
                                     <label for="names">No NPWP <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="24.643.643.3-573.573">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Tanggal Penerbitan NPWP <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="19 Sep 2021">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Kewarganegaraan <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="INDONESIA">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Tempat Lahir <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Jakarta">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Tanggal Lahir <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="06 Sep 1998">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
                                     <label for="names">Agama <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Islam">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                </div>
                                <div class="form-group">
                                 <label for="names">Latar Belakang Pendidikan <span>*</span></label>
-                                <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="6252728181514257">
+                                <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Sebutkan Nama Suami/Istri <span>*</span></label>
@@ -153,93 +121,66 @@
                                </div>
                                 <div class="form-group">
                                     <label for="names">Jenis Kelamin <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Laki-Laki">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                             </div>
-
-                            <div class="col-12 my-4">
-                                <h6 class="font-weight-bold font-monospace">Data Ahli Waris</h6>
-                                <hr>
+                            <div class="col-12 my-3">
+                            <h6 class="font-weight-bold font-monospace">Data Ahli Waris</h6>
+                            <hr>
                             </div>
-
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label for="names">Nama Ahli Waris <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Riris">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="names">Hubungan <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Riris">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="names">No. Telepon/Handohone <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Riris">
-                                </div>
-                            </div>
-
-                            <div class="col-12 my-4">
-                                <h6 class="font-weight-bold font-monospace">Data Alamat</h6>
-                                <hr>
-                            </div>
-
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="exampleFormControlTextarea1">Alamat Sesuai KTP</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" >Jalan kacapiring dalam</textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
                                   </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Mampang">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Jakarta Selatan">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                             </div>
 
                             <div class="col-6">
                                 <div class="form-group">
                                     <label for="names">Negara <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Riris">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Kota <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Jakarta Selatan">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Kelurahan <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Pasar Minggu">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">No. Telepon Rumah <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Riris">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
                                     <label for="names">Provinsi <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="DKI Jakarta">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Kecamatan <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Pasar Minggu">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Kode Pos <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="12520">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">No. Fax <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="-">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                             </div>
-
                             <div class="col-12 my-4">
                                 <h6 class="font-weight-bold font-monospace">Data Rekening Bank</h6>
                                 <hr>
@@ -248,26 +189,26 @@
                             <div class="col-6">
                                 <div class="form-group">
                                     <label for="names">Nama Bank <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="BANK MANDIRI">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">No. Rekening  <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="6242718253538383">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Mata Uang  <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="USD">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
                                     <label for="names">Cabang Bank  <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Jakarta">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group">
                                     <label for="names">Nama Pemilik Bank  <span>*</span></label>
-                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Adrian">
+                                    <input type="email" class="form-control" id="names" aria-describedby="emailHelp">
                                 </div>
                             </div>
 
@@ -303,22 +244,20 @@
                                       </form>
                                 </div>
                             </div>
-                           </div>
-                          </div>
-                          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                           
-                          </div>
-                          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                            
-                          </div>
-                          <div class="tab-pane fade" id="diskusi" role="tabpanel" aria-labelledby="contact-tab">
-                            
-                          </div>
+
+                            <div class="row mt-4">
+                                <div class="col-12">
+                                    <button class="btn btn-primary btn-block">
+                                        <i class="fa fa-save"></i>
+                                        Simpan
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
         </div>
     </div>
 
@@ -452,9 +391,7 @@
     
 </body>
 
-<script src="js/scripts.js"></script>
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="fontawesome/js/all.js"></script>
 </html>
