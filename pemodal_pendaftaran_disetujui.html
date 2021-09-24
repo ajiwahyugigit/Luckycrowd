@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemodal Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg py-4">
+        <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="" width="180px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Tentang Kami <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hubungi Kami</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cara Kerja</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dashboard_revisi.html">Dashboard</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <i class="fas fa-bell mr-4"></i>
+            <i class="fa fa-user mr-2"></i>
+            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Pemodal Tester</a></span>
+          </form>
+        </div>
+      </nav>
+
+
+      <div class="main-pemodal">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-10">
+                      <div class="card">
+                          <div class="card-header">
+                             Data Pemodal
+                          </div>
+                          <div class="card-body">
+                            
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="stepwizard">
+                                        <div class="stepwizard-row setup-panel">
+                                            <div class="stepwizard-step col-xs-3"> 
+                                                <a href="#step-1" type="button" class="btn btn-success btn-circle"><i class="fa fa-user"></i></a>
+                                                <p><small>Data Pribadi</small></p>
+                                            </div>
+                                            <div class="stepwizard-step col-xs-3"> 
+                                                <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-hand-holding-usd"></i></a>
+                                                <p><small>Data Penghasilan</small></p>
+                                            </div>
+                                            <div class="stepwizard-step col-xs-3"> 
+                                                <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-hand-holding-heart"></i></a>
+                                                <p><small>Latar Belakang Investasi</small></p>
+                                            </div>
+                                            <div class="stepwizard-step col-xs-3"> 
+                                                <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-pen-alt"></i></a>
+                                                <p><small>Tanda Tangan Digital</small></p>
+                                            </div>
+                                            <div class="stepwizard-step col-xs-3"> 
+                                                <a href="#step-5" type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-bell"></i></a>
+                                                <p><small>Status</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <form role="form">
+                                        <div class="panel panel-primary setup-content" id="step-1">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <h5>Data Pribadi</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="row biodata-input">
+                                                    <div class="col-6">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <label for="name">Nama Awal <span>*</span></label>
+                                                                <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Masukan Nama">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="name-last">Nama Akhir</label>
+                                                                <input type="name-last" class="form-control" id="name-last" aria-describedby="emailHelp" placeholder="Masukan Nama Akhir">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                <label for="name">Tanggal Kadarluasa KTP <span>*</span></label>
+                                                                <input type="date" class="form-control" id="name" aria-describedby="emailHelp">
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <form action="">
+                                                            <div class="form-group">
+                                                                <label for="name-middle">Nama Tengah</label>
+                                                                <input type="name" class="form-control" id="name-middle" aria-describedby="emailHelp" placeholder="Masukan Nama Tengah">
+                                                              </div>
+                                                              <div class="form-group">
+                                                                  <label for="names">No KTP <span>*</span></label>
+                                                                  <input type="number" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan No. KTP">
+                                                             </div>
+                                                                <div class="form-group form-checK mt-5 ml-4">
+                                                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                                  <label class="form-check-label" for="exampleCheck1">Seumur Hidup</label>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="npwp">Nomor NPWP <span>*</span></label>
+                                                            <input type="number" class="form-control" id="npwp" aria-describedby="emailHelp" placeholder="Masukan Nomor NPWP">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="tgl-penerbit-npwp">Tanggal Penerbitan NPWP <span>*</span></label>
+                                                            <input type="date" class="form-control" id="tgl-penerbit-npwp" aria-describedby="emailHelp">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="names">Kewarganegaraan <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>Indonesia</option>
+                                                                <option value="1">Singapure</option>
+                                                                <option value="2">Thailand</option>
+                                                                <option value="3">Malaysia</option>
+                                                              </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="tempat=lahir">Tempat Lahir <span>*</span></label>
+                                                            <input type="text" class="form-control" id="tempat=lahir" aria-describedby="emailHelp" placeholder="Masukan Tempat Lahir">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="tgl-lahi">Tanggal Lahir <span>*</span></label>
+                                                            <input type="date" class="form-control" id="tgl-lahi" aria-describedby="emailHelp">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="names">Agama <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>-- Pilih Salah Satu --</option>
+                                                                <option value="4">Islam</option>
+                                                                <option value="1">Kristen</option>
+                                                                <option value="2">Budha</option>
+                                                                <option value="3">Hindu</option>
+                                                              </select>
+                                                       </div>
+                                                       <div class="form-group">
+                                                        <label for="names">Latar Belakang Pendidikan <span>*</span></label>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>-- Pilih Salah Satu --</option>
+                                                            <option value="1">SMA</option>
+                                                            <option value="2">S1</option>
+                                                            <option value="3">S2</option>
+                                                          </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="suami-istri">Sebutkan Nama Suami/Istri <span>*</span></label>
+                                                            <input type="text" class="form-control" id="suami-istri" aria-describedby="emailHelp" placeholder="Masukan Nama Suami/Istri">
+                                                       </div>
+                                                        <div class="form-group">
+                                                            <label for="names">Jenis Kelamin <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>-- Pilih Salah Satu --</option>
+                                                                <option value="1">Laki-Laki</option>
+                                                                <option value="2">Perempuan</option>
+                                                              </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="selfie">Fhoto Selfie<span>*</span></label>
+                                                            <input type="file" class="form-control" id="suami-istri" aria-describedby="emailHelp" placeholder="Masukan Nama Suami/Istri">
+                                                       </div>
+                                                    </div>
+                                                    <div class="col-12 my-3">
+                                                    <h6 class="font-weight-bold">Data Ahli Waris</h6>
+                                                    <hr>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <div class="form-group">
+                                                            <label for="jalan">Jalan <span>*</span></label>
+                                                            <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nama Jalan">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <div class="form-group">
+                                                            <label for="names">RW <span>*</span></label>
+                                                            <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="001">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <div class="form-group">
+                                                            <label for="names">RT <span>*</span></label>
+                                                            <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="001">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label for="exampleFormControlTextarea1">Alamat Sesuai KTP</label>
+                                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukan Alamat Anda"></textarea>
+                                                          </div>
+                                                    </div>
+                                                    
+                                                    
+                        
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="names">Negara <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>-- Pilih Salah Satu --</option>
+                                                                <option>Indonesia</option>
+                                                                <option value="1">Singapure</option>
+                                                                <option value="2">Thailand</option>
+                                                                <option value="3">Malaysia</option>
+                                                              </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="names">Kota <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>-- Pilih Salah Satu --</option>
+                                                                <option value="4">Jakarta</option>
+                                                                <option value="1">Tangerang</option>
+                                                                <option value="2">Bekasi</option>
+                                                                <option value="3">Karawang</option>
+                                                              </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="names">Kelurahan <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>-- Pilih Salah Satu --</option>
+                                                                <option value="4">Pinang Jaya</option>
+                                                                <option value="1">Mangga dua</option>
+                                                                <option value="2">Kampung Melayu</option>
+                                                                <option value="3">Bojong Renged</option>
+                                                              </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="tlp-rumah">No. Telepon Rumah <span>*</span></label>
+                                                            <input type="number" class="form-control" id="tlp-rumah" aria-describedby="emailHelp" placeholder="Masukan Telepon Rumah">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="names">Provinsi <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>-- Pilih Salah Satu --</option>
+                                                                <option value="1">DKI Jakarta</option>
+                                                                <option value="4">Banten</option>
+                                                                <option value="2">Jawa Barat</option>
+                                                                <option value="3">Jawa Tengah</option>
+                                                              </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="names">Kecamatan <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>-- Pilih Salah Satu --</option>
+                                                                <option value="1">Pinang Jaya</option>
+                                                                <option value="4">Cipondoh</option>
+                                                              </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="kode-pos">Kode Pos <span>*</span></label>
+                                                            <input type="email" class="form-control" id="kode-pos" aria-describedby="emailHelp" placeholder="Masukan Kode Pos">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="fax">No. Fax <span>*</span></label>
+                                                            <input type="email" class="form-control" id="fax" aria-describedby="emailHelp" placeholder="Masukan Nomor Fax">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-4">
+                                                        <h6 class="font-weight-bold">Data Rekening Bank</h6>
+                                                        <hr>
+                                                    </div>
+                        
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="name">Nama Bank <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>-- Pilih Salah Satu --</option>
+                                                                <option value="1">BCA</option>
+                                                                <option value="2">Mandiri</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="rekening">No. Rekening  <span>*</span></label>
+                                                            <input type="number" class="form-control" id="rekening" aria-describedby="emailHelp" placeholder="Masukan Nomor Rekening">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="mata-uang">Mata Uang<span>*</span></label>
+                                                            <input type="text" class="form-control" id="mata-uang" aria-describedby="emailHelp" placeholder="Masukan Mata Uang">
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="cabang">Cabang Bank  <span>*</span></label>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected>-- Pilih Salah Satu --</option>
+                                                                <option value="1">Pinang Jaya</option>
+                                                                <option value="4">Cipondoh</option>
+                                                              </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="nama-pemilik">Nama Pemilik Bank  <span>*</span></label>
+                                                            <input type="text" class="form-control" id="nama-pemilik" aria-describedby="emailHelp" placeholder="Masukan Nama Pemilik Bank">
+                                                        </div>
+                                                    </div>
+                        
+                                                    <div class="col-6">
+                                                        <div class="card" style="border: 4px dotted #ddd;">
+                                                            <form>
+                                                                <div class="form-group p-4">
+                                                                  <label for="exampleFormControlFile1">Example file input</label>
+                                                                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                </div>
+                                                              </form>
+                                                        </div>
+                                                    </div>
+                        
+                                                    <div class="col-6">
+                                                        <div class="card" style="border: 4px dotted #ddd;">
+                                                            <form>
+                                                                <div class="form-group p-4">
+                                                                  <label for="exampleFormControlFile1">Example file input</label>
+                                                                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                </div>
+                                                              </form>
+                                                        </div>
+                                                    </div>
+                        
+                                                    <div class="col-6 mt-4">
+                                                        <div class="card" style="border: 4px dotted #ddd;">
+                                                            <form>
+                                                                <div class="form-group p-4">
+                                                                  <label for="exampleFormControlFile1">Example file input</label>
+                                                                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                </div>
+                                                              </form>
+                                                        </div>
+                                                    </div>
+                        
+                                                
+                                                </div>
+
+                                                <button class="btn btn-primary nextBtn pull-right mt-3" type="button">Lanjutkan</button>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="panel panel-primary setup-content" id="step-2">
+                                            <div class="card-body">
+                                                <div class="row mt-3">
+                                                    <div class="col-12">
+                                                        <div class="x_panel">
+                                                            <div class="x_content">
+                                                  
+                                                                <div class="row">
+                                                                    <div class="col-6">
+
+                                                                        <div class="card py-2">
+                                                                            <div class="row">
+                                                                                <div class="col-4">
+                                                                                    <img src="Images/undraw_businessman_97x4.png" alt="" width="100%">
+                                                                                </div>
+                                                                                <div class="col-8 mt-4">
+                                                                                    <h4 class="font-weight-bold">Pengusaha</h4>
+                                                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> <br>
+                                                                                    <a href="#home" class="btn btn-primary btn-sm mt-2 active" id="home-tab" data-toggle="tab" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-paper-plane pr-2"></i> Pilih</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                
+                                                                        <div class="card py-2">
+                                                                            <div class="row">
+                                                                                <div class="col-4 py-2">
+                                                                                    <img src="Images/undraw_QA_engineers_dg5p.png" alt="" width="100%">
+                                                                                </div>
+                                                                                <div class="col-8 mt-3">
+                                                                                    <h4 class="font-weight-bold">Pekerjaan</h4>
+                                                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br>
+                                                                                    <a href="#profile" class="btn btn-secondary btn-sm mt-2 mb-2" id="profile-tab" data-toggle="tab" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-paper-plane pr-2"></i> Pilih</a> 
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                              <!-- <ul class="nav nav-tabs bar_tabs" id="myTab" role="tablist">
+                                                                <li class="nav-item">
+                                                                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Pengusaha</a>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Pekerja</a>
+                                                                </li>
+                                                              </ul> -->
+
+
+                                                              <div class="tab-content" id="myTabContent">
+                                                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                                                  <div class="container data-penghasilan">
+                                                                      <div class="row mt-4">
+                                                                          <div class="col-12">
+                                                                            <h5>Data Penghasilan</h2>
+                                                                          </div>
+                                                                      </div>
+                                                                      <div class="row">
+                                                                          <div class="col-12">
+                                                                            <form>
+                                                                                <div class="form-group">
+                                                                                    <label for="name">Nama Bisnis <span>*</span></label>
+                                                                                    <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Masukan Nama Bisnis">
+                                                                                </div>
+                                                                            </form>
+                                                                          </div>
+                                                                          <div class="col-12">
+                                                                            <label for="exampleFormControlFile1">Foto Tempat Bisnis <span>*</span></label>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Ambil Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-3">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Jenis Bidang Bisnis <span>*</span></label>
+                                                                                <select class="form-select" aria-label="Default select example">
+                                                                                    <option selected>-- Pilih Status --</option>
+                                                                                    <option value="1">One</option>
+                                                                                    <option value="2">Two</option>
+                                                                                    <option value="3">Three</option>
+                                                                                  </select>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Detail Jenis Bidang Bisnis <span>*</span></label>
+                                                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukan Detail Jenis Bidang Bisnis"></textarea>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Total Karyawan Saat ini <span>*</span></label>
+                                                                                <input type="email" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Total Karyawan Saat ini ">
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-3">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Statu Badan Bisnis <span>*</span></label>
+                                                                                <select class="form-select" aria-label="Default select example">
+                                                                                    <option selected>-- Pilih Status --</option>
+                                                                                    <option value="1">One</option>
+                                                                                    <option value="2">Two</option>
+                                                                                    <option value="3">Three</option>
+                                                                                  </select>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Nomor Izin Bisnis <span>*</span></label>
+                                                                                <input type="email" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nomor Izin Bisnis">
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12">
+                                                                            <label for="exampleFormControlFile1">Foto Izin Bisnis / Sejenisnya <span>*</span></label>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Ambil Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-3">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Tanggal Didirikan Bisnis <span>*</span></label>
+                                                                                <input type="date" class="form-control" id="names" aria-describedby="emailHelp">
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Alamat Tempat Bisnis <span>*</span></label>
+                                                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukan Alamat Tempat Bisnis"></textarea>
+                                                                            </div>
+                                                                          </div>
+
+                                                                          <div class="col-6">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Provinsi <span>*</span></label>
+                                                                                <select class="form-select" aria-label="Default select example">
+                                                                                    <option selected>-- Pilih Provinsi --</option>
+                                                                                    <option value="1">DKI Jakarta</option>
+                                                                                    <option value="2">Banten</option>
+                                                                                  </select>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Kota/Kabupaten <span>*</span></label>
+                                                                                <select class="form-select" aria-label="Default select example">
+                                                                                    <option selected>-- Pilih Kota/Kabupaten --</option>
+                                                                                    <option value="1">DKI Jakarta</option>
+                                                                                    <option value="2">Banten</option>
+                                                                                  </select>
+                                                                            </div>
+                                                                          </div>
+
+                                                                          <div class="col-6">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Kecamatan <span>*</span></label>
+                                                                                <select class="form-select" aria-label="Default select example">
+                                                                                    <option selected>-- Pilih Kecamatan --</option>
+                                                                                    <option value="1">DKI Jakarta</option>
+                                                                                    <option value="2">Banten</option>
+                                                                                  </select>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Kelurahan <span>*</span></label>
+                                                                                <select class="form-select" aria-label="Default select example">
+                                                                                    <option selected>-- Pilih Kelurahan --</option>
+                                                                                    <option value="1">DKI Jakarta</option>
+                                                                                    <option value="2">Banten</option>
+                                                                                  </select>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Nomor Telepon Tempat Bisnis <span>*</span></label>
+                                                                                <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nomor Telepon Tempat Bisnis">
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-3">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Status Tempat Bisnis <span>*</span></label>
+                                                                                <select class="form-select" aria-label="Default select example">
+                                                                                    <option selected>-- Pilih Status --</option>
+                                                                                    <option value="1">One</option>
+                                                                                    <option value="2">Two</option>
+                                                                                    <option value="3">Three</option>
+                                                                                  </select>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12">
+                                                                            <label for="exampleFormControlFile1">Foto Bukti Kepemilikan/Kontrak Tempat Bisnis <span>*</span></label>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Ambil Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-2">
+                                                                            <label for="exampleFormControlFile1">Foto Dokumen Bisnis <span>*</span></label>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Ambil Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-2">
+                                                                            <label for="exampleFormControlFile1">Foto Aktivitas Bisnis <span>*</span></label>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Ambil Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-3">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Nomor NPWP <span>*</span></label>
+                                                                                <input type="email" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nomor NPWP">
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-2">
+                                                                            <label for="exampleFormControlFile1">Foto NPWP <span>*</span></label>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Ambil Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-6">
+                                                                            <div class="card" style="border: 4px dotted #ddd;">
+                                                                                <form>
+                                                                                    <div class="form-group p-4">
+                                                                                      <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                                                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-3">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Rata-Rata Pendapatan Penjualan (6 Bulan Terakhir) <span>*</span></label>
+                                                                                <input type="email" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Rata-Rata Pendapatan Penjualan (6 Bulan Terakhir)">
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-3">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Rata-Rata Pengeluaran Penjualan (6 Bulan Terakhir) <span>*</span></label>
+                                                                                <input type="email" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Rata-Rata Pengeluaran Penjualan (6 Bulan Terakhir)">
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12 mt-3">
+                                                                            <div class="form-group">
+                                                                                <label for="names">Rata-Rata Keuntungan Penjualan (6 Bulan Terakhir) <span>*</span></label>
+                                                                                <input type="email" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Rata-Rata Keuntungan Penjualan (6 Bulan Terakhir)">
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-12">
+                                                                            <button class="btn btn-primary nextBtn pull-right mt-3" type="button">Lanjutkan</button>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                                                    <div class="container data-penghasilan">
+                                                                        <div class="row mt-4">
+                                                                            <div class="col-12">
+                                                                              <h5>Data Pekerjaan</h2>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12">
+                                                                              <form>
+                                                                                  <div class="form-group">
+                                                                                      <label for="name">Pekerjaan <span>*</span></label>
+                                                                                      <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Masukan Pekerjaan">
+                                                                                  </div>
+                                                                              </form>
+                                                                            </div>
+                                                                            <div class="col-12">
+                                                                              <label for="exampleFormControlFile1">Foto ID Card <span>*</span></label>
+                                                                            </div>
+                                                                            <div class="col-6">
+                                                                              <div class="card" style="border: 4px dotted #ddd;">
+                                                                                  <form>
+                                                                                      <div class="form-group p-4">
+                                                                                        <label for="exampleFormControlFile1">Ambil Foto</label>
+                                                                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                      </div>
+                                                                                  </form>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-6">
+                                                                              <div class="card" style="border: 4px dotted #ddd;">
+                                                                                  <form>
+                                                                                      <div class="form-group p-4">
+                                                                                        <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                      </div>
+                                                                                  </form>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-12 mt-3">
+                                                                                <label for="exampleFormControlFile1">Foto Slip Gaji <span>*</span></label>
+                                                                              </div>
+                                                                              <div class="col-6">
+                                                                                <div class="card" style="border: 4px dotted #ddd;">
+                                                                                    <form>
+                                                                                        <div class="form-group p-4">
+                                                                                          <label for="exampleFormControlFile1">Ambil Foto</label>
+                                                                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-6">
+                                                                                <div class="card" style="border: 4px dotted #ddd;">
+                                                                                    <form>
+                                                                                        <div class="form-group p-4">
+                                                                                          <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                              </div>
+
+                                                                            <div class="col-12 mt-3">
+                                                                                <div class="form-group">
+                                                                                    <label for="npwp">Nomor NPWP <span>*</span></label>
+                                                                                    <input type="number" class="form-control" id="npwp" aria-describedby="emailHelp" placeholder="Masukan Nomor NPWP">
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-12 mt-2">
+                                                                                <label for="exampleFormControlFile1">Foto NPWP <span>*</span></label>
+                                                                              </div>
+                                                                              <div class="col-6">
+                                                                                <div class="card" style="border: 4px dotted #ddd;">
+                                                                                    <form>
+                                                                                        <div class="form-group p-4">
+                                                                                          <label for="exampleFormControlFile1">Ambil Foto</label>
+                                                                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-6">
+                                                                                <div class="card" style="border: 4px dotted #ddd;">
+                                                                                    <form>
+                                                                                        <div class="form-group p-4">
+                                                                                          <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-12 mt-3">
+                                                                                <div class="form-group">
+                                                                                    <label for="names">Tingkat Pendapatan <span>*</span></label>
+                                                                                    <select class="form-select" aria-label="Default select example">
+                                                                                        <option selected>-- Pilih Status --</option>
+                                                                                        <option value="1">One</option>
+                                                                                        <option value="2">Two</option>
+                                                                                        <option value="3">Three</option>
+                                                                                      </select>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-12">
+                                                                                <div class="form-group">
+                                                                                    <label for="names">Tanggal Penggajian <span>*</span></label>
+                                                                                    <input type="date" class="form-control" id="names" aria-describedby="emailHelp">
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-12 mt-3">
+                                                                                <div class="form-group">
+                                                                                    <label for="names">Jangka Waktu Lama Kerja <span>*</span></label>
+                                                                                    <select class="form-select" aria-label="Default select example">
+                                                                                        <option selected>-- Pilih Status --</option>
+                                                                                        <option value="1">One</option>
+                                                                                        <option value="2">Two</option>
+                                                                                        <option value="3">Three</option>
+                                                                                      </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-12">
+                                                                                <div class="form-group">
+                                                                                    <label for="names">Nama Perusahaan <span>*</span></label>
+                                                                                    <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nama Perusahaan">
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-12">
+                                                                                <div class="form-group">
+                                                                                    <label for="names">Nomor Telepon Perusahaan <span>*</span></label>
+                                                                                    <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nomor Telepon Perusahaan">
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-12">
+                                                                                <div class="form-group">
+                                                                                    <label for="exampleFormControlTextarea1">Alamat Perusahaan</label>
+                                                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukan Alamat Perusahaan"></textarea>
+                                                                                  </div>
+                                                                                </div>
+                                                                                <div class="col-6">
+                                                                                    <div class="form-group">
+                                                                                        <label for="names">Provinsi <span>*</span></label>
+                                                                                        <select class="form-select" aria-label="Default select example">
+                                                                                            <option selected>-- Pilih Salah Satu --</option>
+                                                                                            <option value="1">DKI Jakarta</option>
+                                                                                            <option value="4">Banten</option>
+                                                                                            <option value="2">Jawa Barat</option>
+                                                                                            <option value="3">Jawa Tengah</option>
+                                                                                          </select>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label for="names">Kota/Kabupaten <span>*</span></label>
+                                                                                        <select class="form-select" aria-label="Default select example">
+                                                                                            <option selected>-- Pilih Salah Satu --</option>
+                                                                                            <option value="1">Pinang Jaya</option>
+                                                                                            <option value="4">Cipondoh</option>
+                                                                                          </select>
+                                                                                    </div>
+                                                                                   
+                                                                                </div>
+                                                                                <div class="col-6">
+                                                                                    <div class="form-group">
+                                                                                        <label for="names">Kecamatan <span>*</span></label>
+                                                                                        <select class="form-select" aria-label="Default select example">
+                                                                                            <option selected>-- Pilih Salah Satu --</option>
+                                                                                            <option value="1">Pinang Jaya</option>
+                                                                                            <option value="4">Cipondoh</option>
+                                                                                          </select>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label for="names">Kelurahan <span>*</span></label>
+                                                                                        <select class="form-select" aria-label="Default select example">
+                                                                                            <option selected>-- Pilih Salah Satu --</option>
+                                                                                            <option value="1">Pinang Jaya</option>
+                                                                                            <option value="4">Cipondoh</option>
+                                                                                          </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                        <button class="btn btn-primary nextBtn pull-right mt-3" type="button">Lanjutkan</button>
+                                                                    </div>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="panel panel-primary setup-content" id="step-3">
+                                            <div class="panel-heading">
+                                                 <h3 class="panel-title">Schedule</h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="form-group">
+                                                    <label class="control-label">Company Name</label>
+                                                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label">Company Address</label>
+                                                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                                                </div>
+                                                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="panel panel-primary setup-content" id="step-4">
+                                            <div class="container">
+                                                <div class="row mt-5 justify-content-center">
+                                                    <div class="col-6">
+                                                        <div class="card">
+                                                            <div class="card-body" style="height: 200px;">
+
+                                                            </div>
+                                                            <div class="card-footer text-center">
+                                                                Nama Pemodal
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="panel panel-primary setup-content" id="step-5">
+                                           <div class="container">
+                                               <div class="row">
+                                                   <div class="col-12">
+                                                        <div class="card">
+                                                            <div class="card-body text-center">
+                                                                <a href="dashboard_revisi.html">
+                                                                    <img src="Images/undraw_Checklist__re_2w7v.png" alt="" width="60%">
+                                                                </a>
+                                                                <h5>Selamat Data Anda Telah di Setujui</h5>
+                                                            </div>
+                                                        </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="support-by mt-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-6">
+                      <h3 class="my-3">Didukung oleh </h3>
+                      <img src="Images/logo1.png" width="200px">
+                      <h4 class="pt-4">Efek Bersifat Utang atau Sukuk</h4>
+                      <p>adalah Efek syariah berupa sertifikat atau bukti kepemilikan yang bernilai sama dan mewakili bagian yang tidak terpisahkan atau tidak terbagi (syuyu’), atas aset yang mendasarinya misalkan Proyek yang menjadi dasar penerbitan.</p>
+
+                      <h4>Efek Bersifat Ekuitas</h4>
+                      <p>adalah Efek yang dapat berupa saham atau Efek bersifat ekuitas lain yang wajib dikonversikan menjadi saham</p>
+                  </div>
+                  <div class="col-6">
+                      <p class="small">PT Lucky Crowd Indonesia ("Lucky Crowd Indonesia ") berlaku sebagai Penyelenggara Urun Dana melalui Penawaran Efek berbasis Teknologi informasi (Securities Crowdfunding) yang berizin dan diawasi oleh Otoritas Jasa Keuangan.
+                        <br>
+                        Berinvestasi ke efek yang diterbitkan dari perusahaan tidak terlepas dari berbagai jenis risiko, seperti: risiko usaha, risiko investasi, risiko likuiditas, risiko kegagalan system elektronik, dan risiko kelangkaan pembagian dividen dan/atau risiko dilusi kepemilikan saham jika Efek yang diterbitkan merupakan saham.
+                      </p>
+                      <p class="small">
+
+                        Pemodal diharapkan membaca laman Peringatan Risiko terlebih dahulu sebelum memutuskan untuk menjadi Pemodal. Keputusan investasi harus dilakukan setelah memahami semua risiko yang telah disebutkan dan atas analisa dan pertimbangan maupun kesadaran dari Pemodal sendiri dalam melakukan tindakan investasi. Penyelenggara tidak bertanggung jawab atas risiko investasi yang dilakukan oleh Pemodal.
+                        <br>
+                        “OTORITAS JASA KEUANGAN TIDAK MEMBERIKAN PERSETUJUAN TERHADAP PENERBIT DAN TIDAK MEMBERIKAN PERNYATAAN MENYETUJUI ATAU TIDAK MENYETUJUI EFEK INI, TIDAK JUGA MENYATAKAN KEBENARAN ATAU KECUKUPAN INFORMASI DALAM LAYANAN URUN DANA INI. SETIAP PERNYATAAN YANG BERTENTANGAN DENGAN HAL TERSEBUT ADALAH PERBUATAN MELANGGAR HUKUM.”;
+                      </pc>
+                      <p class="small">
+
+                        “INFORMASI DALAM LAYANAN URUN DANA INI PENTING DAN PERLU MENDAPAT PERHATIAN SEGERA. APABILA TERDAPAT KERAGUAN PADA TINDAKAN YANG AKAN DIAMBIL, SEBAIKNYA BERKONSULTASI DENGAN PENYELENGGARA.”; dan
+                        
+                        “PENERBIT DAN PENYELENGGARA, BAIK SENDIRI-SENDIRI MAUPUN BERSAMA-SAMA, BERTANGGUNG JAWAB SEPENUHNYA ATAS KEBENARAN SEMUA INFORMASI YANG TERCANTUM DALAM LAYANAN URUN DANA INI.”</p>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="footer mt-5" style="background-color: rgb(99, 3, 147); padding-top: 80px; padding-bottom: 50px;color: #fff;">
+          <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="Images/logo white.png" alt="" width="150px">
+                    <div class="row mt-5">
+                        <div class="col-12">
+                            <h4>Tentang Kami</h4>
+                            <span class="small">Kantor Graha Bumi Surabaya Lantai 3
+
+                                Jalan Basuki Rachmat No. 106-128
+                                
+                                Embong Kaliasin, Kec. Genteng, Kota Surabaya
+                                
+                                60271</span>
+                            <div class="row pt-4">
+                                <div class="col-4">
+                                    <img src="Images/play.png" alt="" width="100px;">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/app.png" alt="" width="100px;">
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <p class="font-weight-bold">PT Lucky Crowd Indonesia, dalam proses perizinan Otoritas Jasa Keuangan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <b>Tentang Kami</b>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="" class="small">Tantang Lucky Crowd</a>
+                        </div>
+                        <div class="col-12">
+                           <a href="" class="small"> Hubungan Kami</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <b>Untuk Pengguna</b>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="" class="small">Cara Kerja</a>
+                        </div>
+                        <div class="col-12">
+                           <a href="" class="small"> FAQ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <b>Tautan Langsung</b>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="" class="small">Syarat dan Penggunaan</a>
+                        </div>
+                        <div class="col-12">
+                           <a href="" class="small">Kebijakan Privasi</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="" class="small">Kebijakan Cookie</a>
+                        </div>
+                        <div class="col-12">
+                           <a href="" class="small">Peringatan Resiko</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="" class="small">Biaya Pengguna</a>
+                        </div>
+                        <div class="col-12">
+                           <a href="" class="small">Layanan Pengaduan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <b>Media Sosial</b>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="" class="small">Lucky Crowd</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="" class="small">@luckycrowd</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="" class="small">Lucky Crowd Indonesia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    
+</body>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+var navListItems = $('div.setup-panel div a'),
+    allWells = $('.setup-content'),
+    allNextBtn = $('.nextBtn');
+
+allWells.hide();
+
+navListItems.click(function (e) {
+    e.preventDefault();
+    var $target = $($(this).attr('href')),
+        $item = $(this);
+
+    if (!$item.hasClass('disabled')) {
+        navListItems.removeClass('btn-success').addClass('btn-default');
+        $item.addClass('btn-success');
+        allWells.hide();
+        $target.show();
+        $target.find('input:eq(0)').focus();
+    }
+});
+
+allNextBtn.click(function () {
+    var curStep = $(this).closest(".setup-content"),
+        curStepBtn = curStep.attr("id"),
+        nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+        curInputs = curStep.find("input[type='text'],input[type='url']"),
+        isValid = true;
+
+    $(".form-group").removeClass("has-error");
+    for (var i = 0; i < curInputs.length; i++) {
+        if (!curInputs[i].validity.valid) {
+            isValid = false;
+            $(curInputs[i]).closest(".form-group").addClass("has-error");
+        }
+    }
+
+    if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
+});
+
+$('div.setup-panel div a.btn-success').trigger('click');
+});
+</script>
+</html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pemodal Page</title>
+    <title>Penerbit Page</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
@@ -39,7 +39,7 @@
           <form class="form-inline my-2 my-lg-0">
             <i class="fas fa-bell mr-4"></i>
             <i class="fa fa-user mr-2"></i>
-            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Pemodal Tester</a></span>
+            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Penerbit Tester</a></span>
           </form>
         </div>
       </nav>
@@ -51,7 +51,7 @@
                   <div class="col-10">
                       <div class="card">
                           <div class="card-header">
-                              Isi Data Pemodal
+                             Data Penerbit
                           </div>
                           <div class="card-body">
                             
@@ -69,11 +69,15 @@
                                             </div>
                                             <div class="stepwizard-step col-xs-3"> 
                                                 <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-hand-holding-heart"></i></a>
-                                                <p><small>Latar Belakang Investasi</small></p>
+                                                <p><small>Latar Belakang Bisnis</small></p>
                                             </div>
                                             <div class="stepwizard-step col-xs-3"> 
-                                                <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-check"></i></a>
-                                                <p><small>Selesai</small></p>
+                                                <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-money-check"></i></a>
+                                                <p><small>Rencana Pembiayaan</small></p>
+                                            </div>
+                                            <div class="stepwizard-step col-xs-3"> 
+                                                <a href="#step-5" type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-bell"></i></a>
+                                                <p><small>Status</small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -178,6 +182,10 @@
                                                                 <option value="2">Perempuan</option>
                                                               </select>
                                                         </div>
+                                                        <div class="form-group">
+                                                            <label for="selfie">Fhoto Selfie<span>*</span></label>
+                                                            <input type="file" class="form-control" id="suami-istri" aria-describedby="emailHelp" placeholder="Masukan Nama Suami/Istri">
+                                                       </div>
                                                     </div>
                                                     <div class="col-12 my-3">
                                                     <h6 class="font-weight-bold">Data Ahli Waris</h6>
@@ -387,7 +395,7 @@
                                                                                 <div class="col-8 mt-3">
                                                                                     <h4 class="font-weight-bold">Pekerjaan</h4>
                                                                                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br>
-                                                                                    <a href="#profile" class="btn btn-primary btn-sm mt-2 mb-2" id="profile-tab" data-toggle="tab" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-paper-plane pr-2"></i> Pilih</a> 
+                                                                                    <a href="#profile" class="btn btn-secondary btn-sm mt-2 mb-2" id="profile-tab" data-toggle="tab" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-paper-plane pr-2"></i> Pilih</a> 
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -704,7 +712,7 @@
                                                                     <div class="container data-penghasilan">
                                                                         <div class="row mt-4">
                                                                             <div class="col-12">
-                                                                              <h5>Data Penghasilan</h2>
+                                                                              <h5>Data Pekerjaan</h2>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row">
@@ -810,7 +818,76 @@
                                                                                     <input type="date" class="form-control" id="names" aria-describedby="emailHelp">
                                                                                 </div>
                                                                               </div>
+                                                                              <div class="col-12 mt-3">
+                                                                                <div class="form-group">
+                                                                                    <label for="names">Jangka Waktu Lama Kerja <span>*</span></label>
+                                                                                    <select class="form-select" aria-label="Default select example">
+                                                                                        <option selected>-- Pilih Status --</option>
+                                                                                        <option value="1">One</option>
+                                                                                        <option value="2">Two</option>
+                                                                                        <option value="3">Three</option>
+                                                                                      </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-12">
+                                                                                <div class="form-group">
+                                                                                    <label for="names">Nama Perusahaan <span>*</span></label>
+                                                                                    <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nama Perusahaan">
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-12">
+                                                                                <div class="form-group">
+                                                                                    <label for="names">Nomor Telepon Perusahaan <span>*</span></label>
+                                                                                    <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nomor Telepon Perusahaan">
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-12">
+                                                                                <div class="form-group">
+                                                                                    <label for="exampleFormControlTextarea1">Alamat Perusahaan</label>
+                                                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukan Alamat Perusahaan"></textarea>
+                                                                                  </div>
+                                                                                </div>
+                                                                                <div class="col-6">
+                                                                                    <div class="form-group">
+                                                                                        <label for="names">Provinsi <span>*</span></label>
+                                                                                        <select class="form-select" aria-label="Default select example">
+                                                                                            <option selected>-- Pilih Salah Satu --</option>
+                                                                                            <option value="1">DKI Jakarta</option>
+                                                                                            <option value="4">Banten</option>
+                                                                                            <option value="2">Jawa Barat</option>
+                                                                                            <option value="3">Jawa Tengah</option>
+                                                                                          </select>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label for="names">Kota/Kabupaten <span>*</span></label>
+                                                                                        <select class="form-select" aria-label="Default select example">
+                                                                                            <option selected>-- Pilih Salah Satu --</option>
+                                                                                            <option value="1">Pinang Jaya</option>
+                                                                                            <option value="4">Cipondoh</option>
+                                                                                          </select>
+                                                                                    </div>
+                                                                                   
+                                                                                </div>
+                                                                                <div class="col-6">
+                                                                                    <div class="form-group">
+                                                                                        <label for="names">Kecamatan <span>*</span></label>
+                                                                                        <select class="form-select" aria-label="Default select example">
+                                                                                            <option selected>-- Pilih Salah Satu --</option>
+                                                                                            <option value="1">Pinang Jaya</option>
+                                                                                            <option value="4">Cipondoh</option>
+                                                                                          </select>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label for="names">Kelurahan <span>*</span></label>
+                                                                                        <select class="form-select" aria-label="Default select example">
+                                                                                            <option selected>-- Pilih Salah Satu --</option>
+                                                                                            <option value="1">Pinang Jaya</option>
+                                                                                            <option value="4">Cipondoh</option>
+                                                                                          </select>
+                                                                                    </div>
+                                                                                </div>
                                                                         </div>
+                                                                        <button class="btn btn-primary nextBtn pull-right mt-3" type="button">Lanjutkan</button>
                                                                     </div>
                                                                 </div>
                                                               </div>
@@ -837,10 +914,10 @@
                                                 <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="panel panel-primary setup-content" id="step-4">
                                             <div class="panel-heading">
-                                                 <h3 class="panel-title">Cargo</h3>
+                                                 <h3 class="panel-title">Rencana Pembiayaan</h3>
                                             </div>
                                             <div class="panel-body">
                                                 <div class="form-group">
@@ -851,8 +928,25 @@
                                                     <label class="control-label">Company Address</label>
                                                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
                                                 </div>
-                                                <button class="btn btn-success pull-right" type="submit">Finish!</button>
+                                                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
                                             </div>
+                                        </div>
+                                        
+                                        <div class="panel panel-primary setup-content" id="step-5">
+                                           <div class="container">
+                                               <div class="row">
+                                                   <div class="col-12">
+                                                        <div class="card">
+                                                            <div class="card-body text-center">
+                                                                <a href="dashboard_revisi.html">
+                                                                    <img src="Images/undraw_Checklist__re_2w7v.png" alt="" width="60%">
+                                                                </a>
+                                                                <h5>Selamat Data Anda Telah di Setujui</h5>
+                                                            </div>
+                                                        </div>
+                                                   </div>
+                                               </div>
+                                           </div>
                                         </div>
                                     </form>
                                 </div>

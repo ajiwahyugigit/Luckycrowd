@@ -67,9 +67,9 @@
                           <li class="nav-item">
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Data Pribadi</a>
                           </li>
-                          <li class="nav-item">
+                          <!-- <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Data Pekerjaan</a>
-                          </li>
+                          </li> -->
                           <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Data Penghasilan</a>
                           </li>
@@ -79,7 +79,7 @@
                         </ul>
                         <div class="tab-content" id="myTabContent">
                           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                           <div class="row mt-4 data-pribadi">
+                           <div class="row mt-4">
                             <div class="col-12 my-4">
                                 <h6 class="font-weight-bold font-monospace">Data Pribadi</h6>
                                 <hr>
@@ -155,6 +155,10 @@
                                     <label for="names">Jenis Kelamin <span>*</span></label>
                                     <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Laki-Laki">
                                 </div>
+                                <div class="form-group">
+                                    <label for="names">Foto Selfie<span>*</span></label> <br>
+                                    <button class="btn btn-primary btn-block"><i class="fa fa-eye"></i> Lihat</button>
+                               </div>
                             </div>
 
                             <div class="col-12 my-4">
@@ -275,8 +279,8 @@
                                 <div class="card" style="border: 4px dotted #ddd;">
                                     <form>
                                         <div class="form-group p-4">
-                                          <label for="exampleFormControlFile1">Example file input</label>
-                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                          <label for="exampleFormControlFile1">Example file input</label> <br>
+                                          <button class="btn btn-primary"><i class="fa fa-eye mr-2"></i>Lihat</button>
                                         </div>
                                       </form>
                                 </div>
@@ -286,8 +290,8 @@
                                 <div class="card" style="border: 4px dotted #ddd;">
                                     <form>
                                         <div class="form-group p-4">
-                                          <label for="exampleFormControlFile1">Example file input</label>
-                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                          <label for="exampleFormControlFile1">Example file input</label> <br>
+                                          <button class="btn btn-primary"><i class="fa fa-eye mr-2"></i>Lihat</button>
                                         </div>
                                       </form>
                                 </div>
@@ -297,19 +301,484 @@
                                 <div class="card" style="border: 4px dotted #ddd;">
                                     <form>
                                         <div class="form-group p-4">
-                                          <label for="exampleFormControlFile1">Example file input</label>
-                                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                          <label for="exampleFormControlFile1">Example file input</label> <br>
+                                          <button class="btn btn-primary"><i class="fa fa-eye mr-2"></i>Lihat</button>
                                         </div>
                                       </form>
                                 </div>
                             </div>
                            </div>
                           </div>
-                          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                          <!-- <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                            
-                          </div>
+                          </div> -->
                           <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                            
+                            <div class="row mt-4">
+                                <div class="col-12">
+                                  <h5>Data Penghasilan</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                  <form>
+                                      <div class="form-group">
+                                          <label for="name">Nama Bisnis <span>*</span></label>
+                                          <input type="email" class="form-control" id="name" aria-describedby="emailHelp" value="Pabrik Helm">
+                                      </div>
+                                  </form>
+                                </div>
+                                <div class="col-12">
+                                  <label for="exampleFormControlFile1">Foto Tempat Bisnis <span>*</span></label>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Ambil Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i> Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Unggah Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i> Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                  <div class="form-group">
+                                      <label for="names">Jenis Bidang Bisnis <span>*</span></label>
+                                      <select class="form-select" aria-label="Default select example">
+                                          <option >-- Pilih Status --</option>
+                                          <option selected>industri</option>
+                                          <option value="2">Two</option>
+                                          <option value="3">Three</option>
+                                        </select>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                      <label for="names">Detail Jenis Bidang Bisnis <span>*</span></label>
+                                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Pembuatan Helm</textarea>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                      <label for="names">Total Karyawan Saat ini <span>*</span></label>
+                                      <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="35 Orang">
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                  <div class="form-group">
+                                      <label for="names">Status Badan Bisnis <span>*</span></label>
+                                      <select class="form-select" aria-label="Default select example">
+                                          <option >-- Pilih Status --</option>
+                                          <option selected>Tetap</option>
+                                          <option value="2">Two</option>
+                                          <option value="3">Three</option>
+                                        </select>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                      <label for="names">Nomor Izin Bisnis <span>*</span></label>
+                                      <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="1122 2321 3212">
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <label for="exampleFormControlFile1">Foto Izin Bisnis / Sejenisnya <span>*</span></label>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Ambil Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Unggah Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                  <div class="form-group">
+                                      <label for="names">Tanggal Didirikan Bisnis <span>*</span></label> <br>
+                                      <input type="date" class="form-control" id="names" aria-describedby="emailHelp" value="2018-07-22">
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                      <label for="names">Alamat Tempat Bisnis <span>*</span></label>
+                                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Jl. Merdeka Barat No.20</textarea>
+                                  </div>
+                                </div>
+
+                                <div class="col-6">
+                                  <div class="form-group">
+                                      <label for="names">Provinsi <span>*</span></label>
+                                      <select class="form-select" aria-label="Default select example">
+                                          <option>-- Pilih Provinsi --</option>
+                                          <option selected>DKI Jakarta</option>
+                                          <option value="2">Banten</option>
+                                        </select>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="form-group">
+                                      <label for="names">Kota/Kabupaten <span>*</span></label>
+                                      <select class="form-select" aria-label="Default select example">
+                                          <option selected>-- Pilih Kota/Kabupaten --</option>
+                                          <option selected>Jakarta Pusat</option>
+                                          <option value="2">Banten</option>
+                                        </select>
+                                  </div>
+                                </div>
+
+                                <div class="col-6">
+                                  <div class="form-group">
+                                      <label for="names">Kecamatan <span>*</span></label>
+                                      <select class="form-select" aria-label="Default select example">
+                                          <option selected>-- Pilih Kecamatan --</option>
+                                          <option selected>Senen</option>
+                                          <option value="2">Banten</option>
+                                        </select>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="form-group">
+                                      <label for="names">Kelurahan <span>*</span></label>
+                                      <select class="form-select" aria-label="Default select example">
+                                          <option selected>-- Pilih Kelurahan --</option>
+                                          <option selected>Kramat</option>
+                                          <option value="2">Banten</option>
+                                        </select>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                      <label for="names">Nomor Telepon Tempat Bisnis <span>*</span></label>
+                                      <input type="text" class="form-control" id="names" aria-describedby="emailHelp" value="021 222 012">
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                  <div class="form-group">
+                                      <label for="names">Status Tempat Bisnis <span>*</span></label>
+                                      <select class="form-select" aria-label="Default select example">
+                                          <option selected>-- Pilih Status --</option>
+                                          <option selected>Milik Pribadi</option>
+                                          <option value="2">Two</option>
+                                          <option value="3">Three</option>
+                                        </select>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <label for="exampleFormControlFile1">Foto Bukti Kepemilikan/Kontrak Tempat Bisnis <span>*</span></label>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Ambil Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Unggah Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                  <label for="exampleFormControlFile1">Foto Dokumen Bisnis <span>*</span></label>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Ambil Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Unggah Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                  <label for="exampleFormControlFile1">Foto Aktivitas Bisnis <span>*</span></label>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Ambil Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Unggah Foto</label> <br>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                  <div class="form-group">
+                                      <label for="names">Nomor NPWP <span>*</span></label>
+                                      <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="2211.02.2121.0321">
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                  <label for="exampleFormControlFile1">Foto NPWP <span>*</span></label>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Ambil Foto</label>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Unggah Foto</label>
+                                            <button class="btn btn-primary"><i class="fa fa-eye"></i>Lihat</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                  <div class="form-group">
+                                      <label for="names">Rata-Rata Pendapatan Penjualan (6 Bulan Terakhir) <span>*</span></label>
+                                      <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Rp. 200.000.000">
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                  <div class="form-group">
+                                      <label for="names">Rata-Rata Pengeluaran Penjualan (6 Bulan Terakhir) <span>*</span></label>
+                                      <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Rp. 70.000.000">
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                  <div class="form-group">
+                                      <label for="names">Rata-Rata Keuntungan Penjualan (6 Bulan Terakhir) <span>*</span></label>
+                                      <input type="email" class="form-control" id="names" aria-describedby="emailHelp" value="Rp. 130.000.000">
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col-12">
+                                  <h5>Data Pekerjaan</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                  <form>
+                                      <div class="form-group">
+                                          <label for="name">Pekerjaan <span>*</span></label>
+                                          <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Masukan Pekerjaan" disabled>
+                                      </div>
+                                  </form>
+                                </div>
+                                <div class="col-12">
+                                  <label for="exampleFormControlFile1">Foto ID Card <span>*</span></label>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Ambil Foto</label>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1" disabled>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="card" style="border: 4px dotted #ddd;">
+                                      <form>
+                                          <div class="form-group p-4">
+                                            <label for="exampleFormControlFile1">Unggah Foto</label>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1" disabled>
+                                          </div>
+                                      </form>
+                                  </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <label for="exampleFormControlFile1">Foto Slip Gaji <span>*</span></label>
+                                  </div>
+                                  <div class="col-6">
+                                    <div class="card" style="border: 4px dotted #ddd;">
+                                        <form>
+                                            <div class="form-group p-4">
+                                              <label for="exampleFormControlFile1">Ambil Foto</label>
+                                              <input type="file" class="form-control-file" id="exampleFormControlFile1" disabled>
+                                            </div>
+                                        </form>
+                                    </div>
+                                  </div>
+                                  <div class="col-6">
+                                    <div class="card" style="border: 4px dotted #ddd;">
+                                        <form>
+                                            <div class="form-group p-4">
+                                              <label for="exampleFormControlFile1">Unggah Foto</label>
+                                              <input type="file" class="form-control-file" id="exampleFormControlFile1" disabled>
+                                            </div>
+                                        </form>
+                                    </div>
+                                  </div>
+
+                                <div class="col-12 mt-3">
+                                    <div class="form-group">
+                                        <label for="npwp">Nomor NPWP <span>*</span></label>
+                                        <input type="number" class="form-control" id="npwp" aria-describedby="emailHelp" placeholder="Masukan Nomor NPWP" disabled>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 mt-2">
+                                    <label for="exampleFormControlFile1">Foto NPWP <span>*</span></label>
+                                  </div>
+                                  <div class="col-6">
+                                    <div class="card" style="border: 4px dotted #ddd;">
+                                        <form>
+                                            <div class="form-group p-4">
+                                              <label for="exampleFormControlFile1">Ambil Foto</label>
+                                              <input type="file" class="form-control-file" id="exampleFormControlFile1" disabled>
+                                            </div>
+                                        </form>
+                                    </div>
+                                  </div>
+                                  <div class="col-6">
+                                    <div class="card" style="border: 4px dotted #ddd;">
+                                        <form>
+                                            <div class="form-group p-4">
+                                              <label for="exampleFormControlFile1">Unggah Foto</label>
+                                              <input type="file" class="form-control-file" id="exampleFormControlFile1" disabled>
+                                            </div>
+                                        </form>
+                                    </div>
+                                  </div>
+                                  <div class="col-12 mt-3">
+                                    <div class="form-group">
+                                        <label for="names">Tingkat Pendapatan <span>*</span></label>
+                                        <select class="form-select" aria-label="Default select example" disabled>
+                                            <option selected>-- Pilih Status --</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="names">Tanggal Penggajian <span>*</span></label>
+                                        <input type="date" class="form-control" id="names" aria-describedby="emailHelp" disabled>
+                                    </div>
+                                  </div>
+                                  <div class="col-12 mt-3">
+                                    <div class="form-group">
+                                        <label for="names">Jangka Waktu Lama Kerja <span>*</span></label>
+                                        <select class="form-select" aria-label="Default select example" disabled>
+                                            <option selected>-- Pilih Status --</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="names">Nama Perusahaan <span>*</span></label>
+                                        <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nama Perusahaan" disabled>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="names">Nomor Telepon Perusahaan <span>*</span></label>
+                                        <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Masukan Nomor Telepon Perusahaan" disabled>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Alamat Perusahaan</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukan Alamat Perusahaan" disabled></textarea>
+                                      </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="names">Provinsi <span>*</span></label>
+                                            <select class="form-select" aria-label="Default select example" disabled>
+                                                <option selected>-- Pilih Salah Satu --</option>
+                                                <option value="1">DKI Jakarta</option>
+                                                <option value="4">Banten</option>
+                                                <option value="2">Jawa Barat</option>
+                                                <option value="3">Jawa Tengah</option>
+                                              </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="names">Kota/Kabupaten <span>*</span></label>
+                                            <select class="form-select" aria-label="Default select example" disabled>
+                                                <option selected>-- Pilih Salah Satu --</option>
+                                                <option value="1">Pinang Jaya</option>
+                                                <option value="4">Cipondoh</option>
+                                              </select>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="names">Kecamatan <span>*</span></label>
+                                            <select class="form-select" aria-label="Default select example" disabled>
+                                                <option selected>-- Pilih Salah Satu --</option>
+                                                <option value="1">Pinang Jaya</option>
+                                                <option value="4">Cipondoh</option>
+                                              </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="names">Kelurahan <span>*</span></label>
+                                            <select class="form-select" aria-label="Default select example" disabled>
+                                                <option selected>-- Pilih Salah Satu --</option>
+                                                <option value="1">Pinang Jaya</option>
+                                                <option value="4">Cipondoh</option>
+                                              </select>
+                                        </div>
+                                    </div>
+                            </div>
                           </div>
                           <div class="tab-pane fade" id="diskusi" role="tabpanel" aria-labelledby="contact-tab">
                             
@@ -317,7 +786,7 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
