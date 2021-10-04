@@ -899,19 +899,101 @@
                                         </div>
                                         
                                         <div class="panel panel-primary setup-content" id="step-3">
-                                            <div class="panel-heading">
-                                                 <h3 class="panel-title">Schedule</h3>
-                                            </div>
-                                            <div class="panel-body">
-                                                <div class="form-group">
-                                                    <label class="control-label">Company Name</label>
-                                                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                                            <div class="container">
+                                                <div class="row mt-2">
+                                                    <div class="col-12">
+                                                        <h5>Latar Belakang Investasi Beneficial Owner</h5>
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlInput1" class="form-label">Tujuan Investasi <span>*</span></label>
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option selected>--Pilih Tujuan Investasi--</option>
+                                                                    <option value="1">Apresiasi Harga</option>
+                                                                    <option value="2">Investasi</option>
+                                                                    <option value="3">Spekulasi</option>
+                                                                    <option value="4">Lainnya</option>
+                                                                  </select>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlInput1" class="form-label">Sumber Dana Investasi <span>*</span></label>
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option selected>--Pilih Sumber Dana Investasi--</option>
+                                                                    <option value="1">Gaji</option>
+                                                                    <option value="2">Keuntungan Bisnis</option>
+                                                                    <option value="3">Bunga</option>
+                                                                    <option value="4">Warisan</option>
+                                                                    <option value="5">Pemberian dari Orang Tua / Anak</option>
+                                                                    <option value="6">Dana Pensiun</option>
+                                                                    <option value="7">Lotere</option>
+                                                                    <option value="8">Hasil Dari Investasi</option>
+                                                                    <option value="9">Deposito</option>
+                                                                    <option value="10">Modal</option>
+                                                                    <option value="11">Pinjaman</option>
+                                                                    <option value="12">Lainnya</option>
+                                                                  </select>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlInput1" class="form-label">Apakah Beneficial Owner sudah memiliki Rekening Efek (SRE) sebelumnya?</label>
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option selected>--Pilih Sumber Dana Investasi--</option>
+                                                                    <option value="1">Belum</option>
+                                                                    <option value="2">Sudah (Kurang dari 2 tahun)</option>
+                                                                    <option value="3">Sudah (Lebih dari 2 tahun)</option>
+                                                                  </select>
+                                                            </div>
+                                                            <h6 class="mt-4">Pembuktian Kepemilikan Rekening Efek mempengaruhi batasan investasi ?</h6>
+                                                            <div class="row mt-4">
+                                                                <div class="col-6">
+                                                                    <div class="card" style="border: 4px dotted #ddd;">
+                                                                        <form>
+                                                                            <div class="form-group p-4" style="color: rgb(197, 197, 197);">
+                                                                              <label for="exampleFormControlFile1">Drag and Drop Bukti Kepemilikan Rekening Efek Selama 2 Tahun file here, or  click to select files</label>
+                                                                              <input type="file" class="form-control mt-4 border-0" id="exampleFormControlInput1">
+                                                                            </div>
+                                                                          </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-4">
+                                                                <div class="col-12">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                                        <label class="form-check-label" for="flexCheckChecked" style="font-size: 12px;">
+                                                                            Dengan ini Saya/Kami menyatakan bahwa semua informasi yang telah disampaikan adalah benar dan sah, serta Saya memberikan kuasa kepada PT. Lucky Crowd Indonesia selaku Penyelenggara untuk melakukan permohonan pembukaan rekening melalui PT (Ditentukan Kemudian) ("Bank Kustodian")
+                                                                        </label>
+                                                                    </div>
+
+                                                                    <div class="form-check mt-3">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                                                                        <label class="form-check-label" for="flexCheckChecked1" style="font-size: 12px;">
+                                                                            Dengan ini Saya/Kami memberi wewenang kepada PT. Lucky Crowd Indonesia dan PT (Ditentukan Kemudian) ("Bank Kustodian") untuk memeriksa kebenaran semua informasi tersebut dan mempunyai hak untuk menolak permohonan pembukaan rekening tanpa adanya keharusan memberikan alasan
+                                                                        </label>
+                                                                    </div>
+
+                                                                    <div class="form-check mt-3">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked>
+                                                                        <label class="form-check-label" for="flexCheckChecked2" style="font-size: 12px;">
+                                                                            Dengan ini Saya/Kami telah menelaah, mengetahui, dan menyadari risiko investasi yang tertera di dokumen Peringatan Risiko
+                                                                        </label>
+                                                                    </div>
+
+                                                                    <div class="form-check mt-3">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" checked>
+                                                                        <label class="form-check-label" for="flexCheckChecked3" style="font-size: 12px;">
+                                                                            Dengan mengetahui latar belakang investasi ini Saya/Kami memahami mengenai investasi di layanan urun dana ini dan memiliki kemampuan untuk membeli efek dalam Layanan Urun Dana yang ditawarkan penyelenggara dan telah memenuhi persyaratan Pemodal yang dapat berinvestasi melalui Layanan Urun Dana sebagaimana Berdasarkan Pasal 16 ayat (1) huruf K POJK 57/2020
+                                                                        </label>
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-4">
+                                                                <div class="col-12 text-right">
+                                                                    <button class="btn btn-secondary btn-sm"><i class="fa fa-folder-open"></i> Simapn Draf</button>
+                                                                    <button class="btn btn-primary btn-sm"><i class="fa fa-paper-plane pr-2"></i>Kirim</button>
+                                                                </div>
+                                                            </div>
+                                                    </div>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Company Address</label>
-                                                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
-                                                </div>
-                                                <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
                                             </div>
                                         </div>
 
