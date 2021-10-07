@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forgot password</title>
+    <title>Invest Page</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
@@ -12,7 +12,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg py-4">
-        <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="" width="180px"></a>
+        <a class="navbar-brand" href="users.html"><img src="images/logo2.png" alt="" width="180px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,73 +31,73 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">FAQ</a>
             </li>
-            <!-- <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" href="">Dashboard</a>
-            </li> -->
+            </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Masuk</button>
-            <button class="btn btn-primary my-2 my-sm-0 m-3 daftar" type="submit">Daftar</button>
+            <i class="fas fa-bell mr-4"></i>
+            <i class="fa fa-user mr-2"></i>
+            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Pemodal Individu Tester</a></span>
           </form>
         </div>
       </nav>
       
-
-      <div class="section mt-5" style="margin-bottom: 100px;">
-          <div class="container">
-              <div class="row justify-content-center">
-                  <div class="col-5">
-                      <div class="card p-5">
-                          <div class="row">
-                              <div class="col-12">
-                                  <div class="row">
-                                      <div class="col-12 text-center">
-                                        <img src="Images/logo2.png" alt="" width="250px">
-                                        <h4 class="mt-4">Ganti Kata Sandi</h4>
-                                        <h6>Silahkan Ganti Kata Sandi Anda</h6>
-                                      </div>
-                                      <div class="col-12 mt-5">
-                                        <form>
-                                            <div class="form-group">
-                                              <label for="exampleInputEmail1" class="font-weight-bold">Sandi Saat Ini</label>
-                                              <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan Sandi Saat Ini">
-                                            </div>
-                                            <div class="form-group">
-                                              <label for="exampleInputPassword1" class="font-weight-bold">Sandi Baru</label>
-                                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukan Sandi Baru">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputPassword1" class="font-weight-bold">Konfirmasi Sandi Baru</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukan Konfirmasi Sandi Baru">
-                                              </div>
-                                          </form>
-                                      </div>
-                                      <div class="row">
-                                          <div class="col-12">
-                                              <p style="font-size: 12px;">
-                                                Anda harus mengganti kata sandi anda yang telah kami kirimkan ke Email anda, dan sandi baru anda harus mengandung angka, huruf dan karakter spesial dengan panjang minimum 8 digit karakter
-                                              </p>
-                                          </div>
-                                      </div>
-                                     
-                                  </div>
-
-                                  <div class="row">
-                                    <div class="col-12 text-center">
-                                      <a href="login.html" class="btn btn-block py-2" style="background-color: rgb(99, 3, 147); color: #fff;">
-                                        <i class="fa fa-user-lock"></i>  
-                                        Submit
+      <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-0 bg-white" id="sidebar-wrapper">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <img src="Images/pp.png" alt="" width="120px;" style="border-radius: 90px;">
+                    <h4 class="mt-2">Cuan Cakra</h4>
+                    <ul style="font-size: 14px; margin-left: -40px;">
+                        <li style="list-style: none;">Handphone<br>
+                            <span style="color: rgb(197, 196, 196);">+62 812 000 2122</span> 
+                        </li>
+                        <li style="list-style: none;">Email<br>
+                            <span style="color: rgb(197, 196, 196);">cuancakra@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sidebar-heading border-bottom" style="background-color: rgb(99, 3, 147); color: white;"><i class="fa fa-laptop-house"></i> Dashboard</div>
+            <div class="list-group list-group-flush">
+                <!-- <a class="list-group-item list-group-item-action p-3" href="biodata.html"><i class="fa fa-address-card"></i> Informasi Data</a> -->
+                <a class="list-group-item list-group-item-action p-3" href="akun_pemodal.html"><i class="fa fa-user"></i> Informasi Data</a>
+                <a class="list-group-item list-group-item-action p-3" href="ganti_katasandi.html"><i class="fa fa-fingerprint"></i> Ganti Kata Sandi</a>
+                <a class="list-group-item list-group-item-action p-3" href="login.html"><i class="fa fa-power-off"></i> Keluar</a>
+            </div>
+        </div>
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Page content-->
+            <div class="container-fluid">
+                <div class="row justify-content-center mt-3">
+                    <div class="col-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="Images/undraw_Mail_sent_re_0ofv.png" alt="" srcset="" width="100%">
+                                    </div>
+                                    <div class="col mt-5">
+                                        <h2>Transaksi Anda Berhasil</h2>
+                                        <a href="dashboard_pemodal.html" class="btn btn-primary">
+                                            <i class="fa fa-backward"></i>
+                                            Kembali
                                         </a>
                                     </div>
                                 </div>
-                                  
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 
 
       <div class="support-by mt-5">
@@ -229,7 +229,9 @@
     
 </body>
 
+<script src="js/scripts.js"></script>
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="fontawesome/js/all.js"></script>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invest Page</title>
+    <title>Dashboard Penerbit</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
@@ -38,7 +38,7 @@
           <form class="form-inline my-2 my-lg-0">
             <i class="fas fa-bell mr-4"></i>
             <i class="fa fa-user mr-2"></i>
-            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Penerbit Individu Tester</a></span>
+            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Wita Juwita</a></span>
           </form>
         </div>
       </nav>
@@ -48,8 +48,8 @@
         <div class="border-0 bg-white" id="sidebar-wrapper">
             <div class="row">
                 <div class="col-12 text-center mb-3">
-                    <img src="Images/pp.png" alt="" width="120px;" style="border-radius: 90px;">
-                    <h4 class="mt-2">Cuan Cakra</h4>
+                    <img src="Images/pas-photo.jpg" alt="" width="120px;" style="border-radius: 90px;">
+                    <h4 class="mt-2">Wita Julita</h4>
                     <ul style="font-size: 14px; margin-left: -40px;">
                         <li style="list-style: none;">Handphone<br>
                             <span style="color: rgb(197, 196, 196);">+62 812 000 2122</span> 
@@ -62,7 +62,7 @@
             </div>
             <div class="sidebar-heading border-bottom" style="background-color: rgb(99, 3, 147); color: white;"><i class="fa fa-laptop-house"></i> Dashboard</div>
             <div class="list-group list-group-flush">
-                <!-- <a class="list-group-item list-group-item-action p-3" href="biodata.html"><i class="fa fa-address-card"></i> Informasi Data</a> -->
+                <a class="list-group-item list-group-item-action p-3" href="laporan_penerbit.html"><i class="fa fa-address-card"></i> Laporan dan Kewajiban</a>
                 <a class="list-group-item list-group-item-action p-3" href="akun_pemodal.html"><i class="fa fa-user"></i> Informasi Data</a>
                 <a class="list-group-item list-group-item-action p-3" href="ganti_katasandi.html"><i class="fa fa-fingerprint"></i> Ganti Kata Sandi</a>
                 <a class="list-group-item list-group-item-action p-3" href="login.html"><i class="fa fa-power-off"></i> Keluar</a>
@@ -72,58 +72,96 @@
         <div id="page-content-wrapper">
             <!-- Page content-->
             <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1">
+                        <span>Status</span>
+                    </div>
+                    <div class="col-1" style="margin-right: -70px;">
+                        :
+                    </div>
+                    <div class="col-2">
+                        <b>Project Active</b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <span>Jenis Efek</span>
+                    </div>
+                    <div class="col-1" style="margin-right: -70px;">
+                        :
+                    </div>
+                    <div class="col-2">
+                        <b>Efek Saham</b>
+                    </div>
+                </div>
             <div class="row my-4">
-                <div class="col-4">
+                <div class="col-3">
                     <div class="card">
                         <div class="card-body">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="Images/bank.png" alt="" width="100%" height="70px;">
-                                    </div>
-                                    <div class="col">
-                                        <h5>Dompet</h5>
-                                        <h3 class="font-weight-bold" style="color: rgb(112, 0, 204);">Rp 0,-</h3>
-                                    </div>
+                                <div class="row text-center">
+                                   <div class="col-12">
+                                       <b>TARGET EFEK</b>
+                                   </div>
+                                   <div class="col-12">
+                                       IDR.1000.000.000,-
+                                   </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-3">
                     <div class="card">
                         <div class="card-body">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="Images/money.png" alt="" width="100%" height="70px;">
-                                    </div>
-                                    <div class="col">
-                                        <h5>Nilai Investasi</h5>
-                                        <h3 class="font-weight-bold" style="color: rgb(112, 0, 204);">Rp 0,-</h3>
-                                    </div>
+                                <div class="row text-center">
+                                   <div class="col-12">
+                                       <b>DANA TERKUMPUL </b>
+                                   </div>
+                                   <div class="col-12">
+                                       IDR.500.000.000,- <span class="badge badge-secondary"><a href="dashboard_penerbit_form_setuju.html" class="text-decoration-none text-white">STOP</a></span>
+                                   </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+
+                <div class="col-3">
                     <div class="card">
                         <div class="card-body">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="Images/cashless-payment.png" alt="" width="100%" height="70px;">
-                                    </div>
-                                    <div class="col">
-                                        <h5>Bagi Hasil Diterima</h5>
-                                        <h3 class="font-weight-bold" style="color: rgb(112, 0, 204);">Rp 0,-</h3>
-                                    </div>
+                                <div class="row text-center">
+                                   <div class="col-12">
+                                       <b>TARGET WAKTU</b>
+                                   </div>
+                                   <div class="col-12">
+                                       1 DEC 2021
+                                   </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row text-center">
+                                   <div class="col-12">
+                                       <b>SISA WAKTU</b>
+                                   </div>
+                                   <div class="col-12">
+                                      35 Hari
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             <div class="row">
                 <div class="col-12 tab-menu">
@@ -135,21 +173,100 @@
     
                         <ul class="nav nav-tabs bar_tabs" id="myTab" role="tablist">
                           <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-wallet"></i> Dompet</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-user-tie"></i> Daftar Investor</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Proyek Tersedia</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Secondary Market</a>
                           </li>
-                          <li class="nav-item">
+                          <!-- <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Proyek Favofite</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#diskusi" role="tab" aria-controls="contact" aria-selected="false">Proyek dimiliki</a>
-                          </li>
+                          </li> -->
                         </ul>
                         <div class="tab-content" id="myTabContent">
                           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            
+                            <div class="container">
+                                <div class="row mt-4">
+                                    <div class="col-12">
+                                        <h4>Transaction</h4>
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <table class="table table-striped">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">User ID</th>
+                                                <th scope="col">Phone Number</th>
+                                                <th scope="col">Seller ID</th>
+                                                <th scope="col">Product</th>
+                                                <th scope="col">Price</th>
+                                                <th scope="col">Balance</th>
+                                                <th scope="col">Status</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">Adam Budiman</th>
+                                                <td>+62 81232122121</td>
+                                                <td>Zipay</td>
+                                                <td>PLN Postpaid</td>
+                                                <td>Rp1.000.000</td>
+                                                <td>Rp300.000</td>
+                                                <td>
+                                                    <a href="" class="btn btn-success btn-sm">Sucess</a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Airin Kurniawati</th>
+                                                <td>+62 81232122121</td>
+                                                <td>Gibby</td>
+                                                <td>General Payment </td>
+                                                <td>Rp800.000</td>
+                                                <td>Rp200.000</td>
+                                                <td>
+                                                    <a href="" class="btn btn-success btn-sm">Sucess</a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Airin Kurniawati</th>
+                                                <td>+62 81232122121</td>
+                                                <td>Gibby</td>
+                                                <td>General Payment </td>
+                                                <td>Rp800.000</td>
+                                                <td>Rp200.000</td>
+                                                <td>
+                                                    <a href="" class="btn btn-success btn-sm">Sucess</a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Airin Kurniawati</th>
+                                                <td>+62 81232122121</td>
+                                                <td>Gibby</td>
+                                                <td>General Payment </td>
+                                                <td>Rp800.000</td>
+                                                <td>Rp200.000</td>
+                                                <td>
+                                                    <a href="" class="btn btn-success btn-sm">Sucess</a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Airin Kurniawati</th>
+                                                <td>+62 81232122121</td>
+                                                <td>Gibby</td>
+                                                <td>General Payment </td>
+                                                <td>Rp800.000</td>
+                                                <td>Rp200.000</td>
+                                                <td>
+                                                    <a href="" class="btn btn-success btn-sm">Sucess</a>
+                                                </td>
+                                              </tr>
+                                             
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                </div>
+                            </div>
                           </div>
                           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                             <h6 class="m-3">Penawaran Berlangsung / Efek Saham</h6>
@@ -435,12 +552,12 @@
                                 </div>
                             </div>
                           </div>
-                          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                          <!-- <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                             
                           </div>
                           <div class="tab-pane fade" id="diskusi" role="tabpanel" aria-labelledby="contact-tab">
                             
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </div>

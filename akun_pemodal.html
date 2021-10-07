@@ -32,13 +32,13 @@
                 <a class="nav-link" href="#">FAQ</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="">Dashboard</a>
+                <a class="nav-link" href="dashboard_pemodal.html">Dashboard</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <i class="fas fa-bell mr-4"></i>
             <i class="fa fa-user mr-2"></i>
-            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Pemodal Individu Tester</a></span>
+            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Cuan Cakra</a></span>
           </form>
         </div>
       </nav>
@@ -46,15 +46,28 @@
       <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
         <div class="border-0 bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom"><i class="fa fa-laptop-house"></i> Dashboard</div>
-            <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action p-3" href="biodata.html"><i class="fa fa-address-card"></i> Biodata</a>
-                <a class="list-group-item list-group-item-action p-3" href="akun_pemodal.html" style="background-color: rgb(99, 3, 147); color: white;"><i class="fa fa-search-dollar"></i> Akun Pemodal</a>
-                <a class="list-group-item list-group-item-action p-3" href="ganti_katasandi.html"><i class="fa fa-fingerprint"></i> Ganti Kata Sandi</a>
-                <a class="list-group-item list-group-item-action p-3" href="login.html"><i class="fa fa-power-off"></i> Keluar</a>
-
-            </div>
-        </div>
+          <div class="row">
+              <div class="col-12 text-center mb-3">
+                  <img src="Images/pp.png" alt="" width="120px;" style="border-radius: 90px;">
+                  <h4 class="mt-2">Cuan Cakra</h4>
+                  <ul style="font-size: 14px; margin-left: -40px;">
+                      <li style="list-style: none;">Handphone<br>
+                          <span style="color: rgb(197, 196, 196);">+62 812 000 2122</span> 
+                      </li>
+                      <li style="list-style: none;">Email<br>
+                          <span style="color: rgb(197, 196, 196);">cuancakra@gmail.com</span>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="sidebar-heading border-bottom"><i class="fa fa-laptop-house"></i><a href="dashboard_pemodal.html" class="text-black text-decoration-none">Dahsboard</a></div>
+          <div class="list-group list-group-flush">
+              <!-- <a class="list-group-item list-group-item-action p-3" href="biodata.html"><i class="fa fa-address-card"></i> Informasi Data</a> -->
+              <a class="list-group-item list-group-item-action p-3" href="akun_pemodal.html"  style="background-color: rgb(99, 3, 147); color: white;"><i class="fa fa-user"></i> Informasi Data</a>
+              <a class="list-group-item list-group-item-action p-3" href="ganti_katasandi.html"><i class="fa fa-fingerprint"></i> Ganti Kata Sandi</a>
+              <a class="list-group-item list-group-item-action p-3" href="login.html"><i class="fa fa-power-off"></i> Keluar</a>
+          </div>
+      </div>
         <!-- Page content wrapper-->
         <div id="page-content-wrapper">
             <!-- Page content-->
@@ -75,6 +88,9 @@
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#diskusi" role="tab" aria-controls="contact" aria-selected="false">Latar Belakang Investasi</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#dokumen" role="tab" aria-controls="contact" aria-selected="false">Dokumen Perjanjian</a>
                           </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
@@ -781,7 +797,227 @@
                             </div>
                           </div>
                           <div class="tab-pane fade" id="diskusi" role="tabpanel" aria-labelledby="contact-tab">
-                            
+                            <div class="row mt-4">
+                              <div class="col-12">
+                                <h5 class="font-weight-bold">Latar Belakang Investasi</h5>
+                              </div>
+                              <div class="col-12">
+                                <form>
+                                  <div class="form-group">
+                                    <label for="exampleFormControlInput1" class="form-label"><b>Tujuan Investasi</b> <span>*</span></label>
+                                    <div class="row">
+                                      <div class="col-2">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                          <label class="form-check-label" for="flexCheckChecked">
+                                            Apresiasi Harga
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <div class="col-2">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" >
+                                          <label class="form-check-label" for="flexCheckChecked1">
+                                            Investasi
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <div class="col-2">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked>
+                                          <label class="form-check-label" for="flexCheckChecked2">
+                                            Spekulasi
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <div class="col-2">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" checked>
+                                          <label class="form-check-label" for="flexCheckChecked3">
+                                            Lainnya
+                                          </label>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1" class="form-label"><b>Sumber Dana Investasi</b> <span>*</span></label>
+                                  <div class="row">
+                                    <div class="col-2">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4" checked>
+                                        <label class="form-check-label" for="flexCheckChecked4">
+                                          Gaji
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-3">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked5" checked>
+                                        <label class="form-check-label" for="flexCheckChecked5">
+                                          Keuntungan Bisnis
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-2">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked6" >
+                                        <label class="form-check-label" for="flexCheckChecked6">
+                                          Bunga
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-2">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked7" >
+                                        <label class="form-check-label" for="flexCheckChecked7">
+                                          Warisan
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-4 mt-3">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked8" >
+                                        <label class="form-check-label" for="flexCheckChecked8">
+                                          Pemberian dari Orang Tua / Anak
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-2 mt-3">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked9" >
+                                        <label class="form-check-label" for="flexCheckChecked9">
+                                          Dana Pensiun
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-2 mt-3">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked10" >
+                                        <label class="form-check-label" for="flexCheckChecked10">
+                                          Lotere
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-3 mt-3">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked11">
+                                        <label class="form-check-label" for="flexCheckChecked11">
+                                          Hasil Dari Investasi
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-2 mt-3">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked12" >
+                                        <label class="form-check-label" for="flexCheckChecked12">
+                                          Deposito
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-2 mt-3">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked13" >
+                                        <label class="form-check-label" for="flexCheckChecked13">
+                                          Modal
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-2 mt-3">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked14">
+                                        <label class="form-check-label" for="flexCheckChecked14">
+                                          Pinjaman
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-2 mt-3">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked15" >
+                                        <label class="form-check-label" for="flexCheckChecked15">
+                                          Lainnya
+                                        </label>
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
+                                  
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1" class="form-label"><b>Apakah Beneficial Owner sudah memiliki Rekening Efek (SRE) sebelumnya?</b></label>
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option value="1">Belum</option>
+                                      <option value="2" selected>Sudah (Kurang dari 2 tahun)</option>
+                                      <option value="3">Sudah (Lebih dari 2 tahun)</option>
+                                    </select>
+                                </div>
+                                <h6 class="mt-4">Pembuktian Kepemilikan Rekening Efek mempengaruhi batasan investasi ?</h6>
+                                <div class="row mt-4">
+                                    <div class="col-6">
+                                        <div class="card" style="border: 4px dotted #ddd;">
+                                            <form>
+                                                <div class="form-group p-4" style="color: rgb(197, 197, 197);">
+                                                  <label for="exampleFormControlFile1">Drag and Drop Bukti Kepemilikan Rekening Efek Selama 2 Tahun file here, or  click to select files</label>
+                                                  <button class="btn btn-primary"><i class="fa fa-eye"></i> Lihat</button>
+                                                </div>
+                                              </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                  <div class="col-12">
+                                      <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                          <label class="form-check-label" for="flexCheckChecked" style="font-size: 12px;">
+                                              Dengan ini Saya/Kami menyatakan bahwa semua informasi yang telah disampaikan adalah benar dan sah, serta Saya memberikan kuasa kepada PT. Lucky Crowd Indonesia selaku Penyelenggara untuk melakukan permohonan pembukaan rekening melalui PT (Ditentukan Kemudian) ("Bank Kustodian")
+                                          </label>
+                                      </div>
+
+                                      <div class="form-check mt-3">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                                          <label class="form-check-label" for="flexCheckChecked1" style="font-size: 12px;">
+                                              Dengan ini Saya/Kami memberi wewenang kepada PT. Lucky Crowd Indonesia dan PT (Ditentukan Kemudian) ("Bank Kustodian") untuk memeriksa kebenaran semua informasi tersebut dan mempunyai hak untuk menolak permohonan pembukaan rekening tanpa adanya keharusan memberikan alasan
+                                          </label>
+                                      </div>
+
+                                      <div class="form-check mt-3">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked>
+                                          <label class="form-check-label" for="flexCheckChecked2" style="font-size: 12px;">
+                                              Dengan ini Saya/Kami telah menelaah, mengetahui, dan menyadari risiko investasi yang tertera di dokumen Peringatan Risiko
+                                          </label>
+                                      </div>
+
+                                      <div class="form-check mt-3">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" checked>
+                                          <label class="form-check-label" for="flexCheckChecked3" style="font-size: 12px;">
+                                              Dengan mengetahui latar belakang investasi ini Saya/Kami memahami mengenai investasi di layanan urun dana ini dan memiliki kemampuan untuk membeli efek dalam Layanan Urun Dana yang ditawarkan penyelenggara dan telah memenuhi persyaratan Pemodal yang dapat berinvestasi melalui Layanan Urun Dana sebagaimana Berdasarkan Pasal 16 ayat (1) huruf K POJK 57/2020
+                                          </label>
+                                      </div>
+
+
+                                  </div>
+                              </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="dokumen" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="row mt-4 justify-content-center">
+                              <div class="col-6">
+                                <div class="card">
+                                  <div class="card-header">
+                                    Dokumen Perjanjian
+                                  </div>
+                                  <div class="card-body text-center">
+                                    <button class="btn btn-primary">
+                                      <i class="fa fa-eye"></i>
+                                      Lihat Dokumen
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>

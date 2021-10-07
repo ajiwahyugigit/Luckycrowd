@@ -46,13 +46,26 @@
       <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
         <div class="border-0 bg-white" id="sidebar-wrapper">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <img src="Images/pp.png" alt="" width="120px;" style="border-radius: 90px;">
+                    <h4 class="mt-2">Cuan Cakra</h4>
+                    <ul style="font-size: 14px; margin-left: -40px;">
+                        <li style="list-style: none;">Handphone<br>
+                            <span style="color: rgb(197, 196, 196);">+62 812 000 2122</span> 
+                        </li>
+                        <li style="list-style: none;">Email<br>
+                            <span style="color: rgb(197, 196, 196);">cuancakra@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="sidebar-heading border-bottom" style="background-color: rgb(99, 3, 147); color: white;"><i class="fa fa-laptop-house"></i> Dashboard</div>
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action p-3" href="#!"><i class="fa fa-address-card"></i> Biodata</a>
-                <a class="list-group-item list-group-item-action p-3" href="#!"><i class="fa fa-search-dollar"></i> Akun Pemodal</a>
-                <a class="list-group-item list-group-item-action p-3" href="#!"><i class="fa fa-fingerprint"></i> Ganti Kata Sandi</a>
-                <a class="list-group-item list-group-item-action p-3" href="#!"><i class="fa fa-power-off"></i> Keluar</a>
-
+                <!-- <a class="list-group-item list-group-item-action p-3" href="biodata.html"><i class="fa fa-address-card"></i> Informasi Data</a> -->
+                <a class="list-group-item list-group-item-action p-3" href="akun_pemodal.html"><i class="fa fa-user"></i> Informasi Data</a>
+                <a class="list-group-item list-group-item-action p-3" href="ganti_katasandi.html"><i class="fa fa-fingerprint"></i> Ganti Kata Sandi</a>
+                <a class="list-group-item list-group-item-action p-3" href="login.html"><i class="fa fa-power-off"></i> Keluar</a>
             </div>
         </div>
         <!-- Page content wrapper-->
@@ -92,11 +105,14 @@
                                         <b>Jumlah Pembelian Efek Saham</b>
                                     </div>
 
-                                    <div class="col-6 mt-4">
+                                    <div class="col-9 mt-4">
                                         <span>Dalam Lembar</span>
                                     </div>
-                                    <div class="col-6 mt-4">
-                                        <p class="text-right font-weight-bold"><input type="text" placeholder="23 Lembar"></p>
+                                    <div class="col-1 mt-4">
+                                        <input type="number" placeholder="1" style="width: 50px;">
+                                    </div>
+                                    <div class="col-2 mt-4">
+                                        <p class="text-right font-weight-bold">Lembar</p>
                                     </div>
 
                                     <div class="col-6">
@@ -127,7 +143,7 @@
                                         <p class="text-right font-weight-bold">IDR 0</p>
                                     </div>
 
-                                    <div class="col-6 mt-4">
+                                    <!-- <div class="col-6 mt-4">
                                         <span>Dalam Lembar</span>
                                     </div>
                                     <div class="col-6 mt-4">
@@ -140,7 +156,7 @@
                                               <option>Alfamart Group</option>
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
@@ -155,38 +171,48 @@
                                 ">
                                 <div class="form-group">
                                     <label class="control-label">Tujuan Penggunaan Dana</label>
-                                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Masukan Tujuan Penggunaan Dana" />
+                                    <input maxlength="200" type="text" required="required" class="form-control" value="Investasi" />
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Solusi</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Jangan Mudah Menyerah</textarea>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Tim</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">im Pengelola Investasi</textarea>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Kompetisi</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">diharapkan dapat membuat lebih banyak investor di bursa saham yang aktif bertransaksi</textarea>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Modal</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">eningkatkan pengembalian dimasa depan</textarea>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Resiko</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">ingkat potensi kerugian yang timbul karena perolehan hasil investasi</textarea>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Lain-Lain</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Semakin tinggi potensi keuntungan</textarea>
                                 </div>
                                 <div class="form-group">
-                                    <label class="control-label">Upload Proposal</label> <br>
+                                    <label class="control-label">Lihat Proposal</label> <br>
                                     
                                     <button class="btn btn-primary">
                                         <i class="fa fa-eye"></i>  Lihat
                                     </button>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="form-group">
+                                            <label class="control-label">Lihat Video Aktivitas bisnis</label>
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                                              </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                             </div>
@@ -215,11 +241,168 @@
                                         </label>
                                       </div>
                                 </div>
-                                <div class="col-4 offset-8 mt-4">
+                                <div class="col-8 offset-5 mt-4">
+                                    <button class="btn btn-close-white text-right" data-toggle="modal" data-target="#exampleModal1">.</button>
+                                    <button class="btn btn-primary text-right"><i class="fa fa-shopping-basket"></i>Masukan ke Favofite </button>
                                     <button class="btn btn-outline-warning text-right"><i class="fa fa-arrow-circle-left"></i> Kembali</button>
-                                    <button class="btn btn-success text-right"><i class="fa fa-dollar-sign"></i> Invest</button>
+                                    <button class="btn btn-success text-right" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-dollar-sign"></i> Invest</button>
                                 </div>
-                            </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Konfirmasi Transaksi</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row mt-3">
+                                                            <div class="col-4">
+                                                                <img src="Images/bank.png" alt="" width="100%" height="100px;">
+                                                            </div>
+                                                            <div class="col-8">
+                                                                <h5>Dompet</h5>
+                                                                <h3 class="font-weight-bold" style="color: rgb(112, 0, 204);">Rp. 110.000.000,-</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-5">
+                                                            <div class="col-12">
+                                                                <b>Detail Transaksi</b>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <span>Jenis Transaksi</span>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        :
+                                                                    </div>
+                                                                    <div class="col-5">
+                                                                        <span>Efek Saham</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <span>Nama Penerbit</span>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        :
+                                                                    </div>
+                                                                    <div class="col-7">
+                                                                        <span>PT. Brickowner Terrakota</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <span>No. Order</span>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        :
+                                                                    </div>
+                                                                    <div class="col-5">
+                                                                        <span>LC2021100000001</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <span>Nilai Transaksi</span>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        :
+                                                                    </div>
+                                                                    <div class="col-5">
+                                                                        <span>Rp. 100.000.000,-</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <a href="invest_berhasil.html" class="btn btn-primary">Lanjutkan</a>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Maaf Saldo Dompet Anda Tidak Mencukupi</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row mt-3">
+                                                            <div class="col-4">
+                                                                <img src="Images/bank.png" alt="" width="100%" height="100px;">
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <h5>Dompet</h5>
+                                                                <h3 class="font-weight-bold" style="color: rgb(112, 0, 204);">Rp 0,-</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-5">
+                                                            <div class="col-12">
+                                                                <b>Top up Dompet</b>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <span style="font-size: 12px;">Silahkan Transfer ke Rekening Dana Nasabah Anda</span>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <span>Nama Bank</span>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        :
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <span>Bank BCA</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <span>No Rekeking</span>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        :
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <span>122144321</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <span>Nama</span>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        :
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <span>Cuan Cakra</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Lanjutkan</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                
+                            </div>  
                         </div>
                     </div>
                     <div class="col-4">

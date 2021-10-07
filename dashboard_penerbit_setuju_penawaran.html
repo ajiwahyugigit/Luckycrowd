@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>welcome Page</title>
+    <title>Dashboard Penerbit</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
@@ -12,7 +12,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg py-4">
-        <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="" width="180px"></a>
+        <a class="navbar-brand" href="users.html"><img src="images/logo2.png" alt="" width="180px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,73 +31,173 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">FAQ</a>
             </li>
-            <!-- <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" href="">Dashboard</a>
-            </li> -->
+            </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <i class="fas fa-bell mr-4"></i>
             <i class="fa fa-user mr-2"></i>
-            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi,</a></span>
+            <span class="font-weight-bold mr-4"><a href="" style="color: rgb(99, 3, 147);">Hi, Penerbit Individu Tester</a></span>
           </form>
         </div>
       </nav>
-
-
-      <div class="main-welcome">
-          <div class="container">
-              <div class="row mt-3">
-                  <div class="col-6 mt-5">
-                      <h1 class="font-weight-bold">Selamat Datang di Lucky Crowd Indonesia</h1>
-                      <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur iusto, nihil dicta nemo cum iste? Ducimus sit doloremque labore magnam?</p>
-                  </div>
-                  <div class="col-6">
-                    <img src="Images/undraw_pay_online_b1hk.png" alt="" width="100%">
-                  </div>
-
-                    <div class="col-6">
-
-                        <div class="card py-2">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="Images/undraw_Vault_re_s4my.png" alt="" width="100%" height="150px">
+      
+      <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-0 bg-white" id="sidebar-wrapper">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <img src="Images/pas-photo.jpg" alt="" width="120px;" style="border-radius: 90px;">
+                    <h4 class="mt-2">Wita Julita</h4>
+                    <ul style="font-size: 14px; margin-left: -40px;">
+                        <li style="list-style: none;">Handphone<br>
+                            <span style="color: rgb(197, 196, 196);">+62 812 000 2122</span> 
+                        </li>
+                        <li style="list-style: none;">Email<br>
+                            <span style="color: rgb(197, 196, 196);">cuancakra@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sidebar-heading border-bottom" style="background-color: rgb(99, 3, 147); color: white;"><i class="fa fa-laptop-house"></i> Dashboard</div>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action p-3" href="laporan_penerbit.html"><i class="fa fa-address-card"></i> Laporan dan Kewajiban</a>
+                <a class="list-group-item list-group-item-action p-3" href="akun_pemodal.html"><i class="fa fa-user"></i> Informasi Data</a>
+                <a class="list-group-item list-group-item-action p-3" href="ganti_katasandi.html"><i class="fa fa-fingerprint"></i> Ganti Kata Sandi</a>
+                <a class="list-group-item list-group-item-action p-3" href="login.html"><i class="fa fa-power-off"></i> Keluar</a>
+            </div>
+        </div>
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Page content-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1">
+                        <span>Status</span>
+                    </div>
+                    <div class="col-1" style="margin-right: -70px;">
+                        :
+                    </div>
+                    <div class="col-2">
+                        <b>Project Belum Active</b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <span>Jenis Efek</span>
+                    </div>
+                    <div class="col-1" style="margin-right: -70px;">
+                        :
+                    </div>
+                    <div class="col-2">
+                        <b>Efek Saham</b>
+                    </div>
+                </div>
+                
+                <div class="row mt-4">
+                    <div class="col-10">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <span>1.  Tanda tangan Dokumen Perjanjian</span>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="form-group">
+                                            <input type="file" class="form-control" id="exampleInputEmail1">
+                                          </div>
+                                    </div>
+                                    <div class="col-1 mt-2">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                          </div>
+                                    </div>
                                 </div>
-                                <div class="col-8 mt-4">
-                                    <h4 class="font-weight-bold">Buat Akun Pemodal</h4>
-                                    <span>Danai bisnis atau proyek favorite anda</span> <br>
-                                    <div class="row mt-3">
-                                        <div class="col-12">
-                                            <a href="pemodal_pendaftaran_prosess.html" class="btn text-white btn-sm" style="background-color: rgb(99, 3, 147);"><i class="fa fa-user"></i> Buat Akun</a>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <span>2.  Pembayaran Biaya Administrasi</span>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Rp. 2000.000">
+                                          </div>
+                                    </div>
+                                    <div class="col-1 mt-2">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                         </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        3.  Syarat dan Ketentuan.
+                                    </div>
+                                    <div class="col-8 my-3">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                            <label class="form-check-label" for="exampleCheck2">
+                                                Biaya layanan system Lucky Crowd Funding tahunan adalah Sebesar Rp. 1.000.000 dibayarkan maksimal  1 November setiap tahun
+                                            </label>
+                                          </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                                            <label class="form-check-label" for="exampleCheck3">
+                                            Penerbit sudah membaca keseluruhan perjanjian dan perjanjian ditanda tangani melalui Digital.
+                                            </label>
+                                          </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                                            <label class="form-check-label" for="exampleCheck4">
+                                                Penerbit wajib memberikan laporan keuangan secara berkala baik laporan keuangan bulanan dan tahunan.
+                                            </label>
+                                          </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                                            <label class="form-check-label" for="exampleCheck5">
+                                                Penerbit wajib membayarkan pembagian hasil keuntungan tahunan maksimal per akhir januari tahun berikutnya.
+                                            </label>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 my-3">
+                                        4.   Akta Perubahan
+                                    </div>
+                                    <div class="col-4">
+                                        <span>Sebelum Anda menerima dana atas efek saham. Anda diwajibkan untuk melakukan perubahan komposisi Akta sesuai dengan data berikut ini (Lihat)</span>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="form-group">
+                                            <input type="file" class="form-control" id="exampleInputEmail1">
+                                          </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck0">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row my-4">
+                                    <div class="col-10 text-right">
+                                        <a href="" class="btn btn-primary">Lanjutkan</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <div class="col-6">
-
-                        <div class="card py-2">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="Images/undraw_profile_pic_ic5t.png" alt="" width="90%" height="150px">
-                                </div>
-                                <div class="col-8 mt-3">
-                                    <h4 class="font-weight-bold">Buat Akun Penerbit</h4>
-                                    <span>Ajukan pendanaan dengan menerbitkan efek <br> saham atau hutang</span>
-                                    <div class="row mt-2">
-                                        <div class="col-12">
-                                            <a href="penerbit_pendaftaran_disetujui.html" class="btn text-white btn-sm" style="background-color: rgb(99, 3, 147);"><i class="fa fa-user"></i> Buat Akun</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
       <div class="support-by mt-5">
@@ -229,7 +329,9 @@
     
 </body>
 
+<script src="js/scripts.js"></script>
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="fontawesome/js/all.js"></script>
 </html>
